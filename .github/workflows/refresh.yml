@@ -31,6 +31,7 @@ jobs:
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           prompt: |
             You maintain TFST, a site that translates ESPN World Cup 2026 coverage into
             plain American English for a new soccer fan. Execute the "Scheduled refresh
