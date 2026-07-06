@@ -4,7 +4,7 @@
 
 window.SITE_DATA = {
   updated: "July 6, 2026",
-  refreshedAt: "2026-07-06T19:27:00-04:00",
+  refreshedAt: "2026-07-06T19:50:00-04:00",
 
   articles: [
     {
@@ -49,6 +49,24 @@ window.SITE_DATA = {
     },
 
     {
+      id: "balogun-starts",
+      kicker: "USMNT · CONFIRMED · 8 PM ET",
+      headline: "Balogun is starting tonight — and Belgium just benched two of its stars",
+      byline: "Original by ESPN News Services · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49289290/folarin-balogun-named-starting-xi-us-vs-belgium",
+      body: [
+        `It's official: Folarin Balogun is in the U.S. <span class="t" data-d="the 11 players who start the game, as opposed to the substitutes on the bench.">starting lineup</span> tonight against Belgium. Coach Mauricio Pochettino kept the exact same XI that beat Bosnia-Herzegovina, meaning 48 hours of FIFA drama changes nothing about how the U.S. lines up.`,
+        `Belgium made the more surprising call. Manager Rudi Garcia left out two of the team's most dangerous attackers, midfielder Kevin De Bruyne and winger Jérémy Doku — the same two names ESPN's own scouting report flagged as the biggest threats to the U.S. defense.`,
+        `The Belgian federation is still fuming about Balogun. In a statement Sunday: "The Royal Belgian Football Association is astonished by FIFA's decision to declare suspended United States player Folarin Balogun eligible to play in the USA-Belgium match on Monday, 6 July at 5:00 p.m. [Seattle time]."`,
+        `FIFA president Gianni Infantino defended the process Monday, without addressing Trump's phone call directly: "FIFA's judicial bodies are independent," Infantino said in the statement. "They operate autonomously, apply the FIFA Disciplinary Code, and decide cases based on the applicable regulations and the specific facts before them. Their independence is essential to the credibility and integrity of football, and this must always be respected."`,
+        `Pochettino says he stayed out of the whole saga: "I wasn't involved," Pochettino said. "I was focusing on trying to prepare the team to face Belgium, working in different [areas], working in trying to be focused and to play tomorrow with our best, in our best condition."`,
+        `For what it's worth, FIFA quietly bending this rule isn't new: Portugal's Cristiano Ronaldo had two games of a three-match ban deferred back in November for a qualifier red card, and Argentina's Nicolás Otamendi and Ecuador's Moisés Caicedo got the same break in April. That's cold comfort to Belgium, but it's precedent.`,
+        `Kickoff is 8 PM Eastern in Seattle. A win sends the U.S. to the World Cup quarterfinals for the first time since 2002.`
+      ],
+      original: null
+    },
+
+    {
       id: "balogun",
       kicker: "USMNT · THE RED CARD CIRCUS",
       headline: "FIFA to Belgium: case closed — America's best scorer plays tonight",
@@ -73,6 +91,25 @@ window.SITE_DATA = {
         `FIFA president Gianni Infantino said Monday he discussed the red-card suspension reversal of Balogun with U.S. President Donald Trump, and Infantino explained to him that a decision on the matter would be taken by FIFA's independent judicial bodies.`,
         `Trump on Monday took credit for getting FIFA to review the red card but said he did not demand an outcome. "All I did was ask for a review," Trump said when asked about it during an unrelated Oval Office event. "I didn't say, 'You have to do this.'"`
       ]
+    },
+
+    {
+      id: "scaloni",
+      kicker: "TOMORROW · NOON ET · ATLANTA",
+      headline: "Argentina's coach, ahead of Egypt: 'There isn't one truly dominant team' left",
+      byline: "Original by Lizzy Becherano, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49290873/argentina-scaloni-warns-truly-dominant-team-world-cup",
+      body: [
+        `Argentina coach Lionel Scaloni has a message ahead of tomorrow's <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span> game against Egypt: nobody, including his own team, is playing like a favorite is supposed to right now.`,
+        `"I think this World Cup is proving to be difficult for everyone. There isn't one truly dominant team. France seemed strong, and they still are, but they struggled against Paraguay," Scaloni said in a press conference Monday, a day out from the defending champions' game against Egypt in Atlanta.`,
+        `"Spain struggled until the very end. No team has maintained the form they showed before the World Cup. The opponents are playing well, and the conditions are different from what we've been seeing. The players, who have played many matches, are feeling it."`,
+        `Argentina isn't exactly cruising either. La Albiceleste needed <span class="t" data-d="soccer's overtime: two full 15-minute periods, no sudden death. Still tied after that? It goes to a penalty-kick shootout.">extra time</span> and a 111th-minute <span class="t" data-d="when a player accidentally scores on his own team. It counts, and it haunts.">own goal</span> to get past Cape Verde, 3-2, in the round of 32 — after rolling through the group stage unbeaten against Algeria, Austria and Jordan.`,
+        `Messi is fine physically despite that 120-minute slog, Scaloni says: "Leo is fine. He didn't report any issues, despite playing 120 minutes the other day at the age of 39," Scaloni said. Messi will make his 30th World Cup appearance Tuesday — extending his own all-time record.`,
+        `Scaloni isn't ready to give up Argentina's favorite tag despite the shaky performances: "This team has been a candidate for years wherever it goes, and has always played well-even when things don't work out, or the opponent makes it difficult for you. [Our] level is acceptable. We won all four matches, and that's something to be satisfied with. As always, there are things to correct," he said.`,
+        `He's not taking Egypt lightly, either — especially Mohamed Salah, whom Argentina will face for the first time. "We are alert because Egypt is a good opponent. They are a very good team; they have players with experience and a coach who has been working with them for a long time," Scaloni said. "Salah is a great player; it will be a pleasure to face him. This team has faced great players before, and we have always taken precautions at a collective level."`,
+        `The winner plays Colombia or Switzerland in the quarterfinals.`
+      ],
+      original: null
     },
 
     {
