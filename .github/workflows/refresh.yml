@@ -1,0 +1,44 @@
+name: refresh-stories
+
+on:
+  schedule:
+    # ET targets: 8:30 AM, 2:30 PM, 7:45 PM, 12:15 AM (EDT = UTC-4)
+    - cron: "30 12 * * *"
+    - cron: "30 18 * * *"
+    - cron: "45 23 * * *"
+    - cron: "15 4 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Stop after the tournament (final + one day of postgame coverage)
+        id: gate
+        run: echo "go=$([ "$(date -u +%Y%m%d)" -le 20260721 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh translated stories
+        if: steps.gate.outputs.go == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            You maintain TFST, a site that translates ESPN World Cup 2026 coverage into
+            plain American English for a new soccer fan. Execute the "Scheduled refresh
+            workflow" documented in README.md, exactly as written. Summary: fetch the
+            latest ESPN World Cup news feed; if there are new stories or games finished
+            since the refreshedAt timestamp in articles.js, translate them (author's tone
+            preserved, quotes EXACTLY verbatim, decoder spans for soccer jargon, recap
+            stories for finished games from ESPN's live-blog wrap text); keep the page to
+            ~8 stories; always update refreshedAt (ISO 8601 with -04:00 offset) and the
+            display date; commit with a short message describing what changed and push to
+            main. If nothing is new, commit only the refreshedAt bump.
+          claude_args: '--allowedTools "Bash(git:*),Bash(curl:*),Read,Write,Edit,WebFetch,WebSearch"'
