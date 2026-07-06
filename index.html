@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>The Famous Soccer Tournament for American's</title>
+<meta name="description" content="World Cup news and commentary, translated into American. Accepting our ignorance, but trying to keep up.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="wordmark">TFST</div>
+    <div class="masthead-text">
+      <h1>The Famous Soccer Tournament <span class="for-americans">for American&rsquo;s</span></h1>
+      <p class="tagline">Accepting our ignorance, but trying to keep up.</p>
+    </div>
+  </div>
+</header>
+
+<div id="usa-banner" class="usa-banner" hidden></div>
+
+<section class="scores" aria-label="Scoreboard">
+  <h2 class="section-head"><span>Scoreboard</span><span class="live-note" id="scores-updated"></span></h2>
+  <p class="section-sub">Live from ESPN’s feed, reformatted for people who think in Eastern time. Every game left in the tournament. <b>Tap a live or finished game for translated play-by-play.</b></p>
+  <div class="score-strip" id="score-strip">
+    <div class="score-loading">Loading scores…</div>
+  </div>
+  <div id="pbp" class="pbp" hidden></div>
+</section>
+
+<main class="stories" id="stories">
+  <h2 class="section-head"><span>Top Stories, Translated</span></h2>
+  <p class="section-sub">Real ESPN reporting, rewritten in plain American. Quotes are untouched. Anything with a <span class="t demo">dotted underline</span> is soccer-speak — tap it for the decoder. Every story links to the original.</p>
+  <div class="refresh-stamp" id="refresh-stamp"></div>
+</main>
+
+<section class="decoder" id="decoder">
+  <h2 class="section-head dark"><span>The Decoder</span></h2>
+  <p class="section-sub">The soccer-to-American dictionary. Read this once and every game broadcast gets 40% less confusing.</p>
+  <dl id="glossary"></dl>
+</section>
+
+<footer class="site-foot">
+  <p><b>How this works:</b> all reporting on this page originates with ESPN’s journalists — read the originals, they’re good. We translate the soccer-speak into American, keep every quote exactly as spoken, and link back to the source. Scores come live from ESPN’s public scoreboard feed.</p>
+  <p>Not affiliated with ESPN, FIFA, or frankly anyone. Article translations are a snapshot from <span id="foot-updated"></span>; scores update themselves.</p>
+</footer>
+
+<script src="articles.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
