@@ -16,6 +16,7 @@
       <div class="byline">${a.byline} · ${D.updated}</div>
       <div class="original-note">You're reading ESPN's original soccer-speak, lightly trimmed. Good luck.</div>
       <div class="body"></div>
+      ${a.body.length > 2 ? `<button class="btn-more">Keep reading ▾</button>` : ""}
       <div class="story-actions">
         ${a.original ? `<button class="btn toggle-orig">Read it in soccer-speak 🇬🇧</button>` : ""}
         <a class="btn" href="${a.link}" target="_blank" rel="noopener">Original on ESPN ↗</a>
@@ -29,11 +30,23 @@
     };
     renderBody(a.body);
 
+    // Long stories start collapsed to their first paragraph.
+    const more = card.querySelector(".btn-more");
+    const setCollapsed = (collapsed) => {
+      bodyEl.classList.toggle("collapsed", collapsed);
+      if (more) more.textContent = collapsed ? "Keep reading ▾" : "Show less ▴";
+    };
+    if (more) {
+      setCollapsed(true);
+      more.addEventListener("click", () => setCollapsed(!bodyEl.classList.contains("collapsed")));
+    }
+
     const toggle = card.querySelector(".toggle-orig");
     if (toggle) {
       toggle.addEventListener("click", () => {
         const showingOriginal = card.classList.toggle("original-mode");
         renderBody(showingOriginal ? a.original : a.body);
+        setCollapsed(false);
         toggle.textContent = showingOriginal ? "Back to American 🇺🇸" : "Read it in soccer-speak 🇬🇧";
       });
     }
@@ -92,7 +105,7 @@
       const h12 = ((hh + 11) % 12) + 1;
       return `${h12}:${String(mm).padStart(2, "0")} ${hh < 12 ? "AM" : "PM"}`;
     })();
-    el.innerHTML = `Stories last refreshed <b>${fmtET(new Date(D.refreshedAt))} ET</b> · next auto-refresh ~<b>${nextLabel} ET</b> · scores &amp; play-by-play update live`;
+    el.innerHTML = `Refreshed <b>${fmtET(new Date(D.refreshedAt))} ET</b> · next ~<b>${nextLabel} ET</b>`;
   })();
 
   /* ---------- Live scores ---------- */
@@ -111,7 +124,6 @@
 
   const strip = document.getElementById("score-strip");
   const banner = document.getElementById("usa-banner");
-  const updatedEl = document.getElementById("scores-updated");
 
   function roundLabel(dateUTC) {
     const d = dateUTC.slice(0, 10);
@@ -211,9 +223,6 @@
           : `🇺🇸 <b>FINAL: ${teamName(opp)} ${opp.score}, USA ${us.score}.</b> It was a hell of a run.`;
       }
     }
-
-    updatedEl.textContent =
-      "updated " + new Date().toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
   }
 
   async function loadScores() {
