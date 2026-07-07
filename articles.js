@@ -4,15 +4,15 @@
 
 window.SITE_DATA = {
   updated: "July 7, 2026",
-  refreshedAt: "2026-07-07T11:30:00-04:00",
+  refreshedAt: "2026-07-07T16:35:00-04:00",
 
   articles: [
     {
       id: "catchup",
       kicker: "THE 30-SECOND CATCH-UP",
-      headline: "Everything that's happened in the round of 16 (so far)",
+      headline: "Everything that's happened from the round of 16 to the quarterfinals (so far)",
       byline: "Compiled from ESPN reporting",
-      link: "https://www.espn.com/soccer/story/_/id/49284373/world-cup-daily-live-usmnt-belgium-spain-portugal-cristiano-ronaldo-round-16",
+      link: "https://www.espn.com/soccer/story/_/id/49293140/world-cup-daily-live-messi-fans-troll-speed-ronaldo-exit-argentina-colombia-action",
       body: [
         `<ul class="catchup">
           <li><b>Morocco 3, Canada 0</b> — One co-host is out, and it wasn't close. Morocco ran Canada off its own field Friday.</li>
@@ -21,11 +21,54 @@ window.SITE_DATA = {
           <li><b>England 3, Mexico 2</b> — The other co-host is gone too, in an instant classic Sunday night. England finished it with 10 men after an <span class="t" data-d="a red card — soccer's version of an ejection. Unlike other sports, the ejected player can't be replaced: his team plays a man short for the rest of the game.">ejection</span>.</li>
           <li><b>Spain 1, Portugal 0</b> — Cristiano Ronaldo's last World Cup game ever. Spain won it with basically the last kick that mattered, and coach Roberto Martinez resigned afterward.</li>
           <li><b>Belgium 4, USA 1</b> — The third and final co-host is out too. Belgium ran through the U.S. defense Monday night in Seattle; Christian Pulisic left hurt and won't play again this tournament. All three World Cup hosts are now eliminated from their own tournament.</li>
-          <li><b>Quarterfinal set:</b> Belgium plays 2010 champion Spain Friday in Inglewood, California.</li>
-          <li><b>🇦🇷 Today:</b> Argentina (Messi) vs. Egypt (Salah) at noon ET in Atlanta, then Switzerland vs. Colombia at 4 PM ET in Vancouver. Those winners complete the quarterfinal field.</li>
+          <li><b>Argentina 3, Egypt 2</b> — One of the games of the tournament. Egypt led 2-0 with 11 minutes left in Atlanta, but Messi set up one goal, buried the equalizer himself, and Enzo Fernández headed in the stoppage-time winner. Egypt's coach was livid afterward, accusing officials of tilting the game toward Messi and Argentina.</li>
+          <li><b>Quarterfinals:</b> Belgium plays 2010 champion Spain Friday in Inglewood, California. Argentina now waits to find out whether it's playing Switzerland or Colombia next.</li>
+          <li><b>🔴 Live now:</b> Switzerland vs. Colombia in Vancouver — the winner completes the quarterfinal field.</li>
         </ul>`
       ],
       original: null
+    },
+
+    {
+      id: "argentina-egypt-recap",
+      kicker: "ARGENTINA 3, EGYPT 2 · ROUND OF 16",
+      headline: "Down two goals with 10 minutes left, Argentina rallies to stun Egypt and reach the quarterfinals",
+      byline: "Original by PA Media · Translated",
+      link: "http://www.espn.com/soccer/report/_/gameId/760509",
+      body: [
+        `Enzo Fernández headed in a <span class="t" data-d="the clock never stops in soccer — instead the referee tacks a few extra minutes onto the end of each half to make up for delays. Also called 'injury time.'">stoppage-time</span> winner as Argentina pulled off one of the great World Cup comebacks, beating Egypt 3-2 in Atlanta to reach the quarterfinals.`,
+        `The Chelsea midfielder delivered the winner for the defending champions in the second minute of stoppage time, after Argentina had trailed 2-0 with just over 10 minutes left and looked like it was going home.`,
+        `Yasser Ibrahim gave Egypt a shock lead at halftime. Lionel Messi missed a <span class="t" data-d="a free shot from 12 yards out, just the shooter vs. the goalkeeper — awarded for fouls inside the penalty area.">penalty</span> that would've tied it, and Mostafa Zico made it 2-0 in the second half — after an earlier goal of his had been wiped out by <span class="t" data-d="Video Assistant Referee — officials in a replay booth who can review and overturn calls on goals, penalties, and red cards. Doesn't stop people from being furious about the outcome anyway.">VAR</span>.`,
+        `But Cristian Romero's header threw Argentina a lifeline, and after Messi blasted in the equalizer in the 83rd minute, Fernández completed the comeback.`,
+        `Argentina, which had needed extra time to survive a scare against Cape Verde in the previous round, stayed on track to defend the title it won in 2022 in Qatar.`,
+        `Egypt had faced much tougher competition to get this far — a win over New Zealand sandwiched between draws with Belgium and Iran in the group stage, then a penalty-kick shootout win over Australia in the round of 32.`,
+        `After a scrappy start, Egypt grabbed the lead with the game's first shot on target: Ibrahim beat Lisandro Martínez to head in Marwan Attia's cross in the 15th minute.`,
+        `Egypt's lead nearly didn't last. Nicolás Tagliafico went down under a clumsy challenge from Haissem Hassan soon after, but Messi's spot kick was comfortably saved by Egypt goalkeeper Mostafa Shobeir, who dove low to his left to punch it away.`,
+        `Argentina pushed for an equalizer before halftime. Messi's 30-yard free kick clipped the post, and Shobeir made two more big saves, denying Alexis Mac Allister's header and a point-blank chance from Julián Álvarez.`,
+        `Egypt spent most of the second half defending deep. It thought it had doubled its lead on a brilliant goal from Zico in the 58th minute, but VAR wiped it out for a foul earlier in the buildup.`,
+        `Egypt got its second goal anyway nine minutes later: Mohamed Salah and Hassan combined on a counterattack, and Zico finished off a cutback pass in the 67th minute.`,
+        `With 11 minutes left, Argentina got its lifeline: Romero headed in a Messi cross to make it 2-1.`,
+        `Four minutes later, Messi pounced on a loose ball in the box and slammed it home — his eighth goal of the tournament and 21st at World Cups overall — tying the game and setting off the Atlanta Stadium crowd.`,
+        `Then, in the second minute of stoppage time, Fernández sealed it with a hard run into the box to head in Lautaro Martínez's cross for the winner.`
+      ],
+      original: [
+        `Enzo Fernández headed a stoppage-time winner as Argentina produced one of the great World Cup comebacks to beat Egypt 3-2 in Atlanta and reach the quarterfinals.`,
+        `The Chelsea midfielder snatched a thrilling win for the reigning champions in the second minute of added time after his side had trailed 2-0 in the 79th minute and looked to be crashing out.`,
+        `Yasser Ibrahim gave Egypt a shock half-time lead before Lionel Messi's penalty was saved and Mostafa Zico put the Pharaohs 2-0 up in the second period after his earlier effort had been ruled out by VAR.`,
+        `But Cristian Romero's header threw Argentina a lifeline and after Lionel Messi smashed home an 83rd-minute equaliser, Fernandez completed a remarkable fightback.`,
+        `Argentina, who had been given a huge scare by Cape Verde in the previous round, somehow stayed on course for the 'bicampeonato', a successful defence of the World Cup they won in 2022 in Qatar.`,
+        `Egypt faced a big step up in quality after group draws against Belgium and Iran sandwiched a win over New Zealand before they edged Australia in a last-32 penalty shoot-out.`,
+        `But after a scrappy opening they stole into the lead with the first effort on target in the match as Ibrahim got in front of Lisandro Martínez to head home Marwan Attia's excellent cross in the 15th minute.`,
+        `Egypt's shock lead looked set to be short-lived when Nicolás Tagliafico went tumbling under Haissem Hassan's clumsy challenge soon after.`,
+        `But Messi's unconvincing spot-kick was comfortably saved by Egypt goalkeeper Mostafa Shobeir, who dived low to his left to palm the ball away.`,
+        `Argentina pressed for an equaliser before the break, but either side of Messi's 30-yard free-kick, which clipped a post, Shobeir kept out Alexis Mac Allister's header and produced a world-class save to deny Julián Álvarez.`,
+        `Egypt were forced to defend deep and in numbers after the restart, but thought they had doubled their advantage through Mostafa Zico's brilliant goal in the 58th minute, only for VAR to rule it out for a foul in the build-up.`,
+        `The North Africans were not to be denied a second nine minutes later though.`,
+        `Another thrilling counter-attack, involving Mohamed Salah and Hassan, saw the latter's cut-back swept home by Zico in the 67th minute.`,
+        `Argentina responded to the relief of their shell-shocked fans with 11 minutes left when Romero headed home Messi's cross to set up a grandstand finale.`,
+        `Messi then pounced on a loose ball in the box four minutes later to slam home an equaliser - his eighth goal of the tournament and 21st at World Cups in total - which raised the Atlanta Stadium roof.`,
+        `And in the second minute of time added on, Fernandez snatched victory for Argentina with a lung-busting run into the box to head Lautaro Martinez's cross into the top corner and break Egyptian hearts.`
+      ]
     },
 
     {
@@ -77,6 +120,61 @@ window.SITE_DATA = {
         `His attempt generated some much-needed momentum for the U.S., who spent most of the final stages of the match camped in their attacking third but could not find the back of the net.`,
         `A Romelu Lukaku goal in added time was ultimately the dagger in the heart for the U.S., with Belgium progressing to a quarterfinal clash with Spain.`
       ]
+    },
+
+    {
+      id: "egypt-injustice",
+      kicker: "ARGENTINA 3, EGYPT 2 · THE OFFICIATING FALLOUT",
+      headline: "Egypt's coach says his team lost to 'injustice,' not just Argentina",
+      byline: "Original by Mark Ogden, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49298958/egypt-boss-bemoans-injustice-loss-argentina-world-cup",
+      body: [
+        `ATLANTA — Egypt coach Hossam Hassan said his team was the victim of an "injustice" in its 3-2 World Cup <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span> loss to Argentina, suggesting FIFA wanted "Lionel Messi to stay in the running" in the tournament.`,
+        `Defending champion Argentina rallied from 2-0 down to win the game in Atlanta on a stunning late intervention from Messi, who set up one goal and scored another himself.`,
+        `But Egypt was furious that a goal got wiped out by a <span class="t" data-d="Video Assistant Referee — officials in a replay booth who can review and overturn calls on goals, penalties, and red cards. Doesn't stop people from being furious about the outcome anyway.">VAR</span> review, and that officials never checked an apparent foul by Alexis Mac Allister right before Enzo Fernández's stoppage-time winner. Hassan said Egypt was beaten by "external factors" as well as what happened on the field.`,
+        `"We looked better than the reigning champions -- better in everything -- but the result was influenced by internal factors on the pitch and external factors off it," Hassan told reporters.`,
+        `"Perhaps they wanted to keep the world champion in the competition. Perhaps they wanted Messi to stay in the running.`,
+        `"In football, there are sometimes external factors that go beyond the technical aspects. The world champion received support at every level.`,
+        `"There seem to be pressures from the Argentina side on this outcome. We were objecting to the selection of the referee because of the French situation [Argentina beat France in the 2022 World Cup final], but everybody has to suffer at some point and we suffered.`,
+        `"We haven't seen respect or fair play. A penalty was ruled out [alleged foul on Mohamed Salah], it was not even checked by the VAR and our second goal was remarkably, for whatever reason, disallowed.`,
+        `"We have all seen the shirt pulled back [by Mac Allister] and not even a VAR check. Life is unfair, normal life is unfair, so why is there no fairness in sports?`,
+        `"I'm not convinced by this outcome and the way things unfolded in this match.`,
+        `"I want to put it in beautiful words and say hard luck, but we have been treated unfairly and it has been an injustice."`,
+        `Hassan also got into a heated argument with referee François Letexier after the final whistle and said he accused the official of "having something to hide."`,
+        `"What I told the referee was 'this is unfair,'" Hassan said. "I said maybe he is carrying a scar or has something to hide.`,
+        `"If somebody is trying to hide something, they often fail to hide it.`,
+        `"Anyway, when I am finished, I am not going to watch another game of this tournament."`,
+        `Egypt forward Mostafa Zico said it was hard to watch the match slip away.`,
+        `"Hard luck. The match was in our hands and slipped away at the last moment," he said. "Strange things happened on the pitch.`,
+        `"We were hard done by [the referee] today, and everyone saw that. I won't talk about something like this. We were winning 2-0. After the 2-0 result, everything went against us and worked against us. I don't even know why the second goal was disallowed, I don't see any reason for it. But we must look for a solution so that a second goal doesn't come. He wanted to disallow the third one too, but thank God, God didn't grant him success."`,
+        `Zico said Egypt didn't take the win for granted after going up 2-0.`,
+        `"No, we didn't. It wasn't in our calculations that the match was already over. We know very well that we are playing against the world champions, and even before the match started, we knew we were playing a strong team, a team that is a title favorite," he said.`,
+        `"But I mean, if they had won by their own effort, it would have made a big difference to us."`,
+        `Egypt goalkeeper Mostafa Shobeir said he was proud of how hard the team fought until the final whistle.`,
+        `"Of course, some mistakes happened from all of us in the last 10 minutes," he said. "But in the end, we are also playing against the world champions."`,
+        `Backup goalkeeper Mohamed Alaa echoed Zico's frustration over the disallowed goal.`,
+        `"The refereeing was obvious in front of everyone. I won't talk about it, the refereeing was clear. We had a goal disallowed, and we had a penalty. The penalty was turned against us into a counterattack goal," he said.`,
+        `"The objections were only toward the referee, meaning regarding the refereeing errors.`,
+        `"That's what we were objecting to, nothing more than that. Captain [Mohammed] Salah entered the locker room, gathered all the players, and spoke with them. He said, 'Hard luck, it's over. It's God's decree and what He willed happened regarding what took place. Let's build on this, and what's coming will be good, God willing.'"`
+      ],
+      original: null
+    },
+
+    {
+      id: "onana-injury",
+      kicker: "BELGIUM'S QUARTERFINAL COST",
+      headline: "Belgium's Onana is done for the tournament — he tore his ACL guarding the U.S. in the round of 16",
+      byline: "Original by PA Media · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49298508/belgium-amadou-onana-world-cup-suffering-acl-injury",
+      body: [
+        `Belgium midfielder Amadou Onana is out for the rest of the World Cup after tearing his <span class="t" data-d="Anterior cruciate ligament — a key stabilizing ligament in the knee. Tearing it is a serious injury that usually takes the better part of a year to recover from.">ACL</span>, the team confirmed. He got hurt in the first half of Monday's 4-1 win over the United States in the <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span>.`,
+        `Belgium team doctor Brahim Hacene said: "Unfortunately, the medical examinations have confirmed that Amadou has suffered a rupture of the anterior cruciate ligament. This is devastating news, both for him personally and for the team.`,
+        `"We immediately consulted with Amadou and with Aston Villa to agree on the best approach to his recovery.`,
+        `"Over the coming days, we will jointly determine the next steps in his medical treatment and rehabilitation. Throughout this process, we will continue to provide Amadou with our full support."`,
+        `Onana made four appearances for Belgium this World Cup and was making just his second start of the tournament when he went down.`,
+        `Belgium next plays 2010 champion Spain Friday in Inglewood, California, for a spot in the semifinals.`
+      ],
+      original: null
     },
 
     {
@@ -150,85 +248,6 @@ window.SITE_DATA = {
         `U.S. coach Mauricio Pochettino said he was disappointed by the "politics and manipulation" that overshadowed his team's exit — and made clear he meant the people who criticized FIFA for clearing Balogun.`,
         `"It didn't affect our performance. It's not an excuse. It wasn't our day," Pochettino said. "But in a personal way, what is the point to insult or receive a lot of bad messages? It's a rule for the federation to apply and to try [to overturn the ban]. My position was to train the team. If Balogun is available because FIFA allow for you to have the player, it's not a problem.`,
         `"I feel disappointed with too many people. They put politics and manipulation, talk about ethics and integrity [first]. If we talk about the history of this game, I am disappointed in a personal way."`
-      ],
-      original: null
-    },
-
-    {
-      id: "missed-opportunity",
-      kicker: "USA 1, BELGIUM 4 · THE BIG PICTURE",
-      headline: "Everything broke right for the USMNT this summer — and it still wasn't enough",
-      byline: "Original by Sam Borden, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49293165/usmnt-look-back-2026-world-cup-missed-opportunity",
-      body: [
-        `SEATTLE — This wasn't enough. Not nearly. Not even close.`,
-        `It might feel harsh to boil a month of excitement and exhilaration down to something that blunt, but for all the pageantry of high-level sports, the scoreboard always tells the story. The U.S. men's national team gave this country everything it could have wanted from a home team at a World Cup: beauty and belief, passion and grit, a buzzing, rising feeling that this was a moment everyone would remember.`,
-        `Everything, except another game.`,
-        `Is it a failure? It doesn't matter. There will be plenty of arguing over that word and whether it applies, but here's the honest truth: it makes no difference what you call it, because it's clear what this wasn't — a success.`,
-        `The players know it. Mauricio Pochettino was brought in to raise the talent level, sure, and sharpen the team's tactics, absolutely. But mostly he was hired — with money kicked in by big-money U.S. Soccer donors — to deliver a different ending to these summers.`,
-        `This was supposed to be just the second quarterfinal appearance in program history. Instead, after Belgium's 4-1 domination of the U.S. on Monday, it's the fourth time in the last five World Cups the Americans have gone out in the <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span>. (The exception was 2018, when the U.S. didn't even qualify.)`,
-        `"It feels exactly the same," Tyler Adams said afterward — a feeling that'll probably sound familiar to a lot of fans. "I think overall there were positives that we're going to take away from it, [but] it just doesn't feel like it matters."`,
-        `He added later, "You go through it, you put yourself in those situations to try and break through at this moment. Yeah, it sucks."`,
-        `Pochettino will almost certainly leave, though to be fair, that was probably going to happen regardless of the result — European club soccer, and its paychecks, are addictive. What lingers is the feeling of a chance — the chance — slipping through the USMNT's grasp.`,
-        `It has to be said: everything broke right for the U.S. this tournament. The pieces were there for the deep run that's always been the dream. The <span class="t" data-d="the random draw before the tournament that sorts every team into a group of four — get unlucky and you're stuck in a brutal group, get lucky and you've got an easier road to the knockout rounds.">group draw</span> was favorable. When star winger Christian Pulisic — often hurt over his career — got hurt in the opening match, it wasn't serious. Finishing first in their group set the U.S. up about as well as possible, with knockout games against a lesser Bosnia-Herzegovina and an aging Belgium. Mexico, for comparison, also won its group and still ended up facing Ecuador and England.`,
-        `Then there was the Folarin Balogun situation. However you feel about the maneuvering that got him reinstated by FIFA, there's no denying that getting any player — let alone your top scorer — back on the field after a red card in the last game is a gift nobody saw coming.`,
-        `And still, the U.S. couldn't take advantage of it. It would be nice to say history will remember this tournament for how beautifully the co-hosts played against Paraguay, or how they grinded past Australia. For how the stadium sounded when everyone sang "Take Me Home, Country Roads" together in the glow of a win, or how tough the Americans were beating Bosnia-Herzegovina even after losing Balogun to a harsh red card.`,
-        `But that's not how history works. The U.S. has had good stretches before and always seemed to come up short once the level of competition rose that one extra notch. That it happened again here — in such a total, deflating way — means this home World Cup can't stand apart from all the others.`,
-        `It gets lumped in with the rest.`,
-        `"I just think we want to have higher hopes," Pulisic said. "We want to be able to go and compete with some of the best in the world and we just still have that next step to climb."`,
-        `They do. That much was obvious Monday, as Belgium — even with Jérémy Doku and Kevin De Bruyne starting on the bench — ran wild. The U.S. had been so active in its other games, so good at beating defenders and sprinting in behind the <span class="t" data-d="the last line of defenders in front of the goalkeeper.">back line</span>.`,
-        `Against Belgium, the U.S. had nothing. Pulisic turned the ball over 11 times in the first half alone. Sergiño Dest struggled so badly on the right side that Pochettino subbed him out at halftime. Malik Tillman hit a nice free kick but was invisible otherwise. Defenders Tim Ream and Antonee Robinson got beat over and over. Goalkeeper Matt Freese's blunder handed Belgium its third goal.`,
-        `Even Balogun, after all the noise about whether he'd play, barely made a mark.`,
-        `Asked about his team's star forward, Adams just shrugged. "Was anyone a major presence on the field today?" he said. The answer was obvious.`,
-        `Optimism will come back. It always does. And whether he stays or goes, Pochettino said he was proud to have built "the perfect mindset" in the player pool, and he raved about the young talent coming up behind this core group. It won't be hard to believe again, eventually.`,
-        `Just not yet. Right now, there's only that familiar frustration. The one thing that's different is that the buildup was so bright that the crash feels even harder.`,
-        `It's a hard thing to sit with, but there's no getting around it: these players — these inspiring, exciting, magnificent players who had the country's attention for weeks — wanted so badly to give everyone the ending they were hoping for.`,
-        `Instead, they gave everyone the ending everyone was afraid of.`
-      ],
-      original: null
-    },
-
-    {
-      id: "scaloni",
-      kicker: "TODAY · NOON ET · ATLANTA",
-      headline: "Argentina's coach, ahead of Egypt: 'There isn't one truly dominant team' left",
-      byline: "Original by Lizzy Becherano, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49290873/argentina-scaloni-warns-truly-dominant-team-world-cup",
-      body: [
-        `Argentina coach Lionel Scaloni has a message ahead of today's <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span> game against Egypt: nobody, including his own team, is playing like a favorite is supposed to right now.`,
-        `"I think this World Cup is proving to be difficult for everyone. There isn't one truly dominant team. France seemed strong, and they still are, but they struggled against Paraguay," Scaloni said in a press conference Monday, hours before the defending champions' game against Egypt in Atlanta.`,
-        `"Spain struggled until the very end. No team has maintained the form they showed before the World Cup. The opponents are playing well, and the conditions are different from what we've been seeing. The players, who have played many matches, are feeling it."`,
-        `Argentina isn't exactly cruising either. La Albiceleste needed <span class="t" data-d="soccer's overtime: two full 15-minute periods, no sudden death. Still tied after that? It goes to a penalty-kick shootout.">extra time</span> and a 111th-minute <span class="t" data-d="when a player accidentally scores on his own team. It counts, and it haunts.">own goal</span> to get past Cape Verde, 3-2, in the round of 32 — after rolling through the group stage unbeaten against Algeria, Austria and Jordan.`,
-        `Messi is fine physically despite that 120-minute slog, Scaloni says: "Leo is fine. He didn't report any issues, despite playing 120 minutes the other day at the age of 39," Scaloni said. Messi will make his 30th World Cup appearance today — extending his own all-time record.`,
-        `Scaloni isn't ready to give up Argentina's favorite tag despite the shaky performances: "This team has been a candidate for years wherever it goes, and has always played well-even when things don't work out, or the opponent makes it difficult for you. [Our] level is acceptable. We won all four matches, and that's something to be satisfied with. As always, there are things to correct," he said.`,
-        `He's not taking Egypt lightly, either — especially Mohamed Salah, whom Argentina will face for the first time. "We are alert because Egypt is a good opponent. They are a very good team; they have players with experience and a coach who has been working with them for a long time," Scaloni said. "Salah is a great player; it will be a pleasure to face him. This team has faced great players before, and we have always taken precautions at a collective level."`,
-        `The winner plays Colombia or Switzerland in the quarterfinals.`
-      ],
-      original: null
-    },
-
-    {
-      id: "switzerland-manzambi",
-      kicker: "TODAY · 4 PM ET · VANCOUVER",
-      headline: "Switzerland's breakout teenager left training early — coach calls it a 'huge issue' if he can't go",
-      byline: "Original by The Associated Press · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49290967/switzerland-johan-manzambi-injury-colombia-2006-world-cup",
-      body: [
-        `Johan Manzambi, the breakout star of Switzerland's World Cup, left training early Monday, hours before the team's <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span> game against Colombia.`,
-        `Switzerland announced that Manzambi, Rubén Vargas and Djibril Sow all cut training short, without giving specifics.`,
-        `"If they might not play tomorrow, it can be a huge issue for us," coach Murat Yakin said. "We will see what happens this afternoon, because they will go through some medical examination, but this is football. You always have to adjust until the very last minute."`,
-        `Losing Manzambi would be the bigger blow. The 20-year-old midfielder has scored three goals this tournament, with a versatility that's been giving opponents fits.`,
-        `"He's on his way to being a very, very good player," Swiss captain Granit Xhaka said. "He's young, the hunger is big, and, he's very helpful for our team."`,
-        `Vargas, who plays for Spain's Sevilla, is also a key piece of Switzerland's midfield, with two goals and an assist so far.`,
-        `Defender Luca Jaquez, who's played in two games, and midfielder Michel Aebischer also sat out training and may not play, the team said.`,
-        `"Everybody wants to play. We have so many different options," Yakin said. "If something happens it's not going to be a disaster. I saw two very good training sessions yesterday and the day before yesterday, and I am very optimistic. This is part of football, obviously. If one day prior to a match the training session, it's not ideal. ... It's probably going to be a little bit difficult with Johan Manzambi. I hope not. Everything is still up in the air."`,
-        `Manzambi wasn't even a starter when the tournament began. He forced his way into the lineup by scoring twice <span class="t" data-d="as a substitute — he didn't start the game.">off the bench</span> in Switzerland's 4-1 win over Bosnia-Herzegovina — becoming the youngest player ever to score twice in a World Cup game as a substitute.`,
-        `He started Switzerland's final <span class="t" data-d="the tournament's first round: 48 teams sorted into round-robin groups, with the best advancing to the knockout rounds — which work like March Madness. Lose and go home.">group-stage</span> game against Canada and scored in the 2-1 win.`,
-        `In Switzerland's round of 32 game against Algeria, Manzambi flashed his speed, racing downfield before setting up Breel Embolo for the opener in a 2-0 win.`,
-        `"What he's doing at his age is incredible," said Dan Ndoye, who scored Switzerland's other goal. "He's an incredible player for us, and he helped us to go into the next step, you know. And I think he has a lot to improve again, but yeah, he makes us so much better, and we are really happy to have him in the team."`,
-        `Manzambi plays his club soccer in Germany's <span class="t" data-d="Germany's top professional soccer league.">Bundesliga</span> for Freiburg, coming off a breakout club season: five goals and four assists in 26 starts, plus a run to the <span class="t" data-d="the year-long European club tournament one tier below the Champions League — still elite soccer, just not quite the top table.">Europa League</span> final, which Freiburg lost to Aston Villa.`,
-        `A win today would put Switzerland in the World Cup quarterfinals for the first time since 1954.`,
-        `Colombia, for its part, beat Ghana 1-0 in the round of 32. <span class="t" data-d="Colombia's national-team nickname — 'the coffee growers.' Every country's got one.">Los Cafeteros</span> reached the quarterfinals at the 2014 World Cup in Brazil before falling to the host country, 2-1. Colombia didn't qualify for Qatar in 2022.`
       ],
       original: null
     }
