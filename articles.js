@@ -4,7 +4,7 @@
 
 window.SITE_DATA = {
   updated: "July 7, 2026",
-  refreshedAt: "2026-07-07T16:35:00-04:00",
+  refreshedAt: "2026-07-07T21:15:00-04:00",
 
   articles: [
     {
@@ -22,11 +22,39 @@ window.SITE_DATA = {
           <li><b>Spain 1, Portugal 0</b> — Cristiano Ronaldo's last World Cup game ever. Spain won it with basically the last kick that mattered, and coach Roberto Martinez resigned afterward.</li>
           <li><b>Belgium 4, USA 1</b> — The third and final co-host is out too. Belgium ran through the U.S. defense Monday night in Seattle; Christian Pulisic left hurt and won't play again this tournament. All three World Cup hosts are now eliminated from their own tournament.</li>
           <li><b>Argentina 3, Egypt 2</b> — One of the games of the tournament. Egypt led 2-0 with 11 minutes left in Atlanta, but Messi set up one goal, buried the equalizer himself, and Enzo Fernández headed in the stoppage-time winner. Egypt's coach was livid afterward, accusing officials of tilting the game toward Messi and Argentina.</li>
-          <li><b>Quarterfinals:</b> Belgium plays 2010 champion Spain Friday in Inglewood, California. Argentina now waits to find out whether it's playing Switzerland or Colombia next.</li>
-          <li><b>🔴 Live now:</b> Switzerland vs. Colombia in Vancouver — the winner completes the quarterfinal field.</li>
+          <li><b>Switzerland 0-0 Colombia (Switzerland win 4-3 on <span class="t" data-d="a shootout to decide a tied knockout game: five kicks each from the penalty spot, sudden death if it's still tied after that.">penalties</span>)</b> — The round of 16's last game was its quietest. 120 scoreless minutes in Vancouver, then Switzerland won a World Cup shootout for the first time ever to reach the quarterfinals for the first time since it hosted the tournament in 1954.</li>
+          <li><b>Quarterfinals are set:</b> Morocco-France (Thursday, Foxborough, Mass.), Belgium-Spain (Friday, Inglewood, Calif.), England-Norway and Switzerland-Argentina (both Saturday, in Miami Gardens, Fla. and Kansas City, Mo., respectively).</li>
         </ul>`
       ],
       original: null
+    },
+
+    {
+      id: "switzerland-colombia-recap",
+      kicker: "SWITZERLAND 0-0 COLOMBIA (SWITZERLAND WIN 4-3 ON PENALTIES) · ROUND OF 16",
+      headline: "Switzerland outlasts Colombia through a scoreless slog, wins it on penalties to reach the quarterfinals",
+      byline: "Original by PA Media · Translated",
+      link: "http://www.espn.com/soccer/report/_/gameId/760508",
+      body: [
+        `Rubén Vargas buried the winning <span class="t" data-d="a kick from 12 yards, shooter alone against the goalkeeper.">penalty</span> as Switzerland beat Colombia 4-3 in a <span class="t" data-d="a shootout to decide a tied knockout game: five kicks each from the penalty spot, sudden death if it's still tied after that.">shootout</span> to reach the World Cup quarterfinals, after 120 scoreless minutes in Vancouver.`,
+        `Sevilla winger Vargas kept his composure through a tight, low-event game at BC Place Vancouver, and Switzerland will next face defending champion Argentina on Saturday in Kansas City.`,
+        `Switzerland teammate Manuel Akanji put his penalty over the crossbar, but Colombia's Davinson Sánchez and Cucho Hernández also missed, and Colombia was eliminated.`,
+        `It took 20 minutes for Gustavo Puerta to force Switzerland goalkeeper Gregor Kobel into the game's first save, while Fabian Rieder's angled shot was stopped by Colombia goalkeeper Camilo Vargas.`,
+        `The cautious approach continued in the second half. Switzerland substitute Djibril Sow slipped just as he connected with a cross, and Rieder's free kick curled into the side netting.`,
+        `Colombia's passing broke down too, and in the first period of <span class="t" data-d="soccer's overtime, but only in elimination games: two full 15-minute periods, no sudden death. Still tied after that? Shootout.">extra time</span>, the referee waved off a Colombia penalty appeal after Jáminton Campaz went down under a challenge from Miro Muheim.`,
+        `The game finally came alive when Colombia defender Jhon Lucumí headed a corner kick off the crossbar, and Switzerland substitute Zeki Amdouni's shot was well saved by Colombia goalkeeper Camilo Vargas.`,
+        `Swiss captain Granit Xhaka blasted a rare chance off target in the second period of extra time, and an unmarked Campaz shot over the crossbar from inside the box on the game's best opportunity — before it went to penalties.`
+      ],
+      original: [
+        `Rubén Vargas struck the winning spot-kick as Switzerland beat Colombia 4-3 in a penalty shoot-out to reach the World Cup quarterfinals after a goalless 120 minutes in Vancouver.`,
+        `Sevilla winger Vargas held his nerve after a cagey encounter of few goalscoring chances at the Vancouver Stadium and Switzerland will next face defending champions Argentina on Sunday in Kansas.`,
+        `Vargas's team-mate Manuel Akanji fired his spot-kick over the crossbar, but Colombia pair Davinson Sánchez and Cucho Hernández both failed to convert and the South Americans made a painful exit.`,
+        `It was 20 minutes before Gustavo Puerta forced Switzerland goalkeeper Gregor Kobel into the first save, while Fabian Rieder's angled shot was kept out by Colombia keeper Camilo Vargas.`,
+        `The caution-first approach continued in the second half. Switzerland substitute Djibril Sow slipped as he connected with a cross and Rieder curled his free-kick into the side-netting.`,
+        `Colombia's final pass also deserted them and in the first period of extra time their penalty appeals were ignored by the match officials after Jáminton Campaz went down under Miro Muheim's challenge.`,
+        `The game, at last, flickered into life as Colombia defender Jhon Lucumi's header from a corner struck the crossbar and Switzerland substitute Zeki Amdouni's effort was well saved by Vargas.`,
+        `Swiss captain Granit Xhaka blazed a rare chance off target in the second period of extra time and the unmarked Campaz wasted the best opening of the match when shooting over the crossbar from inside the box before the tie was settled on penalties.`
+      ]
     },
 
     {
@@ -123,6 +151,35 @@ window.SITE_DATA = {
     },
 
     {
+      id: "switzerland-argentina-preview",
+      kicker: "SWITZERLAND VS. ARGENTINA · QUARTERFINAL PREVIEW",
+      headline: "Switzerland broke its penalty-shootout curse to reach the quarterfinals — now it has to go through Messi and the defending champs",
+      byline: "Original by Beth Lindop, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49301503/switzerland-look-continue-uefas-party-world-cup",
+      body: [
+        `Minutes after Switzerland punched its ticket to the 2026 World Cup quarterfinals, coach Murat Yakin found his captain, Granit Xhaka. For a few moments, the two stood together on the field in a tight embrace, tears running down Xhaka's face.`,
+        `As Gala's "Freed From Desire" blared around BC Place Vancouver, both Yakin and Xhaka mostly looked relieved. At a tournament that's served up a smorgasbord of on-field drama, this — a grinding scoreless draw with Colombia — was no classic.`,
+        `But after winning on <span class="t" data-d="a shootout to decide a tied knockout game: five kicks each from the penalty spot, sudden death if it's still tied after that.">penalties</span> to reach the quarterfinals for the first time since it hosted the tournament in 1954, nobody in Switzerland will mind how it looked. Going up against a heavily favored Colombia team in front of a mostly South American crowd in Vancouver, Switzerland dug in and got the job done.`,
+        `In doing so, Switzerland set up a match against defending champion Argentina at Kansas City Stadium on Saturday. Argentina has — for good reasons and bad — been the tournament's biggest source of entertainment so far, scoring three goals in all but one of its five games.`,
+        `Switzerland, by contrast, has scored more than two goals only once (a 4-1 group-stage win over Bosnia-Herzegovina). But its ability to grind out results — and the defending champion's clear vulnerability in Tuesday's 3-2 comeback win over Egypt — should give it hope that it can beat the odds and reach the semifinals for the first time in its history.`,
+        `"You're kind of in the flow and don't quite know what to take in," Yakin told Swiss broadcaster SRF after the game.`,
+        `"It took an incredible fight. Cleverness and patience, too. And then, in the penalty shootout at the end, we finally broke the curse. I'm incredibly happy for everyone -- the players, the staff, and the fans at home. Just unbelievable emotions. The feeling during the decisive penalty is fantastic, indescribable."`,
+        `Switzerland's win was a victory for <span class="t" data-d="European soccer's governing body — runs the Champions League and the Euros, and represents the continent's federations inside FIFA.">UEFA</span> too: six of this year's eight quarterfinalists are from Europe. That's the most European teams to reach the quarterfinals at a World Cup held outside Europe since 1994, the last time the U.S. hosted the tournament.`,
+        `That's an even bigger deal given this World Cup's expansion from 32 to 48 teams. In 2022, 40% of the field was European (13 of 32 teams), and 62% of the quarterfinalists were European (five of eight).`,
+        `This time, only 33% of the 48 teams are European (16 of 48) — but a full 75% of the quarterfinalists are (six of eight). With all three co-hosts — the United States, Mexico and Canada — eliminated in the round of 16, Switzerland's next opponent, Argentina, is the only team left from <span class="t" data-d="South America's soccer confederation — think of it as that continent's version of UEFA.">CONMEBOL</span>, while Morocco is the last African team standing.`,
+        `Switzerland will know it needs to be better if it wants to help Europe's cause in the semifinals, though. Tuesday's game was a tight, low-event affair, and Colombia arguably had the better of the chances.`,
+        `The two teams' combined <span class="t" data-d="a stat estimating how many goals a team 'should' have scored based on the quality of the chances it created — a way of measuring danger, not just shots.">expected goals</span> (xG) after 90 minutes was just 0.7 — the lowest in regulation time of any game at this World Cup — and Switzerland didn't manage a shot on target after the 32nd minute. It finished as the third-lowest-xG World Cup game on record, dating back to 1966.`,
+        `Colombia came close to winning it in extra time: Jhon Lucumí headed a corner off the crossbar, and a long-range effort from substitute Jáminton Campaz forced Switzerland goalkeeper Gregor Kobel into a crucial save.`,
+        `Kobel kept it up in the shootout, too, making a big save to deny Cucho Hernández after Colombia's Davinson Sánchez and Switzerland's Manuel Akanji had both missed the target.`,
+        `For Colombia, it was more shootout heartbreak, after it also went out on penalties in the round of 16 in 2018, to England. For Switzerland, its first-ever World Cup shootout win means this is already a summer to remember regardless of what happens against Argentina — the team has won two elimination games at the same World Cup for the first time.`,
+        `"I'm extremely proud of the team," Xhaka told SRF.`,
+        `"It was an incredible display of mental fortitude. Willpower won. We've made history -- it's an unbelievable feeling. The relief makes us very proud. We've been waiting for a long time to write a story like this. Now the journey continues, and we're happy to still be here. I think it's the crowning achievement of the current generation. Hopefully, there will be another one; it's a special generation."`,
+        `It wasn't Switzerland's most thrilling performance, but its grit and persistence earned it another chapter in its World Cup story. With Lionel Messi and the defending champion up next, though, this Swiss team needs the performance of its life.`
+      ],
+      original: null
+    },
+
+    {
       id: "egypt-injustice",
       kicker: "ARGENTINA 3, EGYPT 2 · THE OFFICIATING FALLOUT",
       headline: "Egypt's coach says his team lost to 'injustice,' not just Argentina",
@@ -201,53 +258,6 @@ window.SITE_DATA = {
         `"We're grateful that for the support that they gave us this summer, it really felt like they took a step up and just the support behind this, I don't know, it felt incredible," he said. "So those memories all keep with me forever having a World Cup in the U.S. so we're just grateful for that support."`,
         `Pulisic said he'll take some time off before turning to preseason with AC Milan, where he'll have a new manager in Rúben Amorim.`,
         `"For me, it's just going and spending some time with family and forget about the game for a little bit, of course, try to get a little bit of rest," he said. "We'll be right back in a few weeks going back to preseason and back with the national team, no doubt. There's still a lot more that we want to accomplish."`
-      ],
-      original: null
-    },
-
-    {
-      id: "pochettino-future",
-      kicker: "USA 1, BELGIUM 4 · WHAT'S NEXT",
-      headline: "Pochettino won't talk about his future yet — but tells USMNT fans to keep believing",
-      byline: "Original by Sam Borden, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49292813/mauricio-pochettino-usa-coach-future-2026-world-cup-belgium",
-      body: [
-        `SEATTLE — Mauricio Pochettino wouldn't say whether he wants to stay on as U.S. men's national team coach after the Americans' exit from the World Cup Monday.`,
-        `The U.S. was outplayed 4-1 by Belgium and has now gone out in the <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span> in four of the last five World Cups. Pochettino, the Argentine coach brought in with big expectations, said it wasn't the time to talk about what's next for him.`,
-        `"Now is not a moment to talk about that," he said at his postgame news conference. "I think now is a moment to see, to assess the tournament. You know, I'm sure in the next weeks we can start to talk if [U.S. Soccer] wants to talk."`,
-        `Pochettino's contract runs out after this tournament. U.S. Soccer reportedly approached him about an extension before the World Cup started, but it's unclear whether he'd rather stay with the national team or go back to coaching a club.`,
-        `Pochettino previously coached big clubs like Tottenham Hotspur and Paris Saint-Germain, which is why plenty of people assumed the U.S. job would only be a short stop for him.`,
-        `That might still turn out to be true. But it's clear Pochettino is proud of what he's built over two years leading the Americans — including, he says, "the perfect mindset" now inside the U.S. player pool.`,
-        `"I think we set the principles for the future to be very successful," he said. "I think we feel proud because ... I think we'll create something that is going to stay now in the federation and in this country."`,
-        `Whether or not Pochettino is still the coach at the 2030 World Cup, he says he's confident the current core of the roster will mesh well with the younger players coming up behind them. And even with this exit stinging, he wants American fans to stay optimistic.`,
-        `"I think this team showed that we can play football, we can play soccer, we can compete," he said. "A lot of young players with a lot of potential and future, and I think a generation of young kids that are coming behind. I think only [that you should] keep believing in that process."`
-      ],
-      original: null
-    },
-
-    {
-      id: "balogun-controversy",
-      kicker: "USA 1, BELGIUM 4 · THE BALOGUN FALLOUT",
-      headline: "Balogun says he had nothing to do with FIFA lifting his ban — but the fallout keeps growing",
-      byline: "Original by PA Media · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49294799/folarin-balogun-red-card-ban-fifa-usa-usmnt-world-cup",
-      body: [
-        `Folarin Balogun said the decision to clear him to play for the United States against Belgium was "controversial," but insisted he had nothing to do with how it happened.`,
-        `The circumstances behind FIFA's decision to suspend Balogun's automatic one-game ban — the one he picked up for his red card against Bosnia-Herzegovina — are still murky. President Trump has confirmed he personally lobbied FIFA president Gianni Infantino about it.`,
-        `Playing Balogun didn't save the Americans, who lost 4-1 to Belgium anyway, and FIFA is still fielding questions about political interference even though Infantino insists the call was entirely up to FIFA's independent disciplinary committee.`,
-        `"Of course, it's controversial when the decision is overturned," Balogun told reporters after the match. "We accepted the decision when I saw the red card, and we accepted the decision when we were told I could play. I was not involved in the process. It had nothing to do with me personally."`,
-        `Balogun said he sought out Belgium coach Rudi Garcia after the game to congratulate him on the win. "He came to me, I liked that. He's not to blame. He didn't do anything wrong. I respect him," Garcia said.`,
-        `Belgium's soccer federation (the RBFA) hasn't said whether it considers the matter closed or plans to push further — its formal appeal over the Balogun decision was thrown out earlier Monday.`,
-        `FIFA's disciplinary committee said it used Article 27 of FIFA's rulebook, which lets officials suspend a disciplinary penalty at their own discretion.`,
-        `But a different rule, Article 66.4, says a red card "automatically" carries a suspension into the next game, and people close to FIFA had said last week that Balogun would serve at least one match, possibly more.`,
-        `FIFA's committee said Article 27 applied because of "specific circumstances" in Balogun's case — without saying what those circumstances actually were.`,
-        `Using Article 27 this way could open FIFA up to challenges over every red-card suspension for the rest of the tournament. England's federation, the FA, said it's weighing its own options over the red card given to defender Jarell Quansah against Mexico.`,
-        `<span class="t" data-d="European soccer's governing body — runs the Champions League and the Euros, and represents the continent's federations inside FIFA.">UEFA</span> said Monday that FIFA had "crossed a red line" with the Balogun call. FIFA pushed back, saying red-card appeals like this one are routine in European leagues: "Reviewing the legal consequences of red cards in football is nothing new in the modern game.`,
-        `"For instance, in the majority of top-tier leagues belonging to UEFA-affiliated member associations — the overturning of red cards is a common disciplinary measure, yet this has never raised concerns about crossing any 'red line'. And again, it should be emphasised that in the decision under scrutiny, the red card was not overturned. Suspending the effects of a red card based on an explicit provision of the applicable regulations is a much more balanced measure."`,
-        `England's federation has its own rules for challenging red cards it considers wrongful, and it publishes its reasoning whenever a card gets rescinded.`,
-        `U.S. coach Mauricio Pochettino said he was disappointed by the "politics and manipulation" that overshadowed his team's exit — and made clear he meant the people who criticized FIFA for clearing Balogun.`,
-        `"It didn't affect our performance. It's not an excuse. It wasn't our day," Pochettino said. "But in a personal way, what is the point to insult or receive a lot of bad messages? It's a rule for the federation to apply and to try [to overturn the ban]. My position was to train the team. If Balogun is available because FIFA allow for you to have the player, it's not a problem.`,
-        `"I feel disappointed with too many people. They put politics and manipulation, talk about ethics and integrity [first]. If we talk about the history of this game, I am disappointed in a personal way."`
       ],
       original: null
     }
