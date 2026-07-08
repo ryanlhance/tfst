@@ -4,7 +4,7 @@
 
 window.SITE_DATA = {
   updated: "July 8, 2026",
-  refreshedAt: "2026-07-08T00:15:00-04:00",
+  refreshedAt: "2026-07-08T14:30:00-04:00",
 
   articles: [
     {
@@ -27,127 +27,6 @@ window.SITE_DATA = {
         </ul>`
       ],
       original: null
-    },
-
-    {
-      id: "switzerland-colombia-recap",
-      kicker: "SWITZERLAND 0-0 COLOMBIA (SWITZERLAND WIN 4-3 ON PENALTIES) · ROUND OF 16",
-      headline: "Switzerland outlasts Colombia through a scoreless slog, wins it on penalties to reach the quarterfinals",
-      byline: "Original by PA Media · Translated",
-      link: "http://www.espn.com/soccer/report/_/gameId/760508",
-      body: [
-        `Rubén Vargas buried the winning <span class="t" data-d="a kick from 12 yards, shooter alone against the goalkeeper.">penalty</span> as Switzerland beat Colombia 4-3 in a <span class="t" data-d="a shootout to decide a tied knockout game: five kicks each from the penalty spot, sudden death if it's still tied after that.">shootout</span> to reach the World Cup quarterfinals, after 120 scoreless minutes in Vancouver.`,
-        `Sevilla winger Vargas kept his composure through a tight, low-event game at BC Place Vancouver, and Switzerland will next face defending champion Argentina on Saturday in Kansas City.`,
-        `Switzerland teammate Manuel Akanji put his penalty over the crossbar, but Colombia's Davinson Sánchez and Cucho Hernández also missed, and Colombia was eliminated.`,
-        `It took 20 minutes for Gustavo Puerta to force Switzerland goalkeeper Gregor Kobel into the game's first save, while Fabian Rieder's angled shot was stopped by Colombia goalkeeper Camilo Vargas.`,
-        `The cautious approach continued in the second half. Switzerland substitute Djibril Sow slipped just as he connected with a cross, and Rieder's free kick curled into the side netting.`,
-        `Colombia's passing broke down too, and in the first period of <span class="t" data-d="soccer's overtime, but only in elimination games: two full 15-minute periods, no sudden death. Still tied after that? Shootout.">extra time</span>, the referee waved off a Colombia penalty appeal after Jáminton Campaz went down under a challenge from Miro Muheim.`,
-        `The game finally came alive when Colombia defender Jhon Lucumí headed a corner kick off the crossbar, and Switzerland substitute Zeki Amdouni's shot was well saved by Colombia goalkeeper Camilo Vargas.`,
-        `Swiss captain Granit Xhaka blasted a rare chance off target in the second period of extra time, and an unmarked Campaz shot over the crossbar from inside the box on the game's best opportunity — before it went to penalties.`
-      ],
-      original: [
-        `Rubén Vargas struck the winning spot-kick as Switzerland beat Colombia 4-3 in a penalty shoot-out to reach the World Cup quarterfinals after a goalless 120 minutes in Vancouver.`,
-        `Sevilla winger Vargas held his nerve after a cagey encounter of few goalscoring chances at the Vancouver Stadium and Switzerland will next face defending champions Argentina on Sunday in Kansas.`,
-        `Vargas's team-mate Manuel Akanji fired his spot-kick over the crossbar, but Colombia pair Davinson Sánchez and Cucho Hernández both failed to convert and the South Americans made a painful exit.`,
-        `It was 20 minutes before Gustavo Puerta forced Switzerland goalkeeper Gregor Kobel into the first save, while Fabian Rieder's angled shot was kept out by Colombia keeper Camilo Vargas.`,
-        `The caution-first approach continued in the second half. Switzerland substitute Djibril Sow slipped as he connected with a cross and Rieder curled his free-kick into the side-netting.`,
-        `Colombia's final pass also deserted them and in the first period of extra time their penalty appeals were ignored by the match officials after Jáminton Campaz went down under Miro Muheim's challenge.`,
-        `The game, at last, flickered into life as Colombia defender Jhon Lucumi's header from a corner struck the crossbar and Switzerland substitute Zeki Amdouni's effort was well saved by Vargas.`,
-        `Swiss captain Granit Xhaka blazed a rare chance off target in the second period of extra time and the unmarked Campaz wasted the best opening of the match when shooting over the crossbar from inside the box before the tie was settled on penalties.`
-      ]
-    },
-
-    {
-      id: "argentina-egypt-recap",
-      kicker: "ARGENTINA 3, EGYPT 2 · ROUND OF 16",
-      headline: "Down two goals with 10 minutes left, Argentina rallies to stun Egypt and reach the quarterfinals",
-      byline: "Original by PA Media · Translated",
-      link: "http://www.espn.com/soccer/report/_/gameId/760509",
-      body: [
-        `Enzo Fernández headed in a <span class="t" data-d="the clock never stops in soccer — instead the referee tacks a few extra minutes onto the end of each half to make up for delays. Also called 'injury time.'">stoppage-time</span> winner as Argentina pulled off one of the great World Cup comebacks, beating Egypt 3-2 in Atlanta to reach the quarterfinals.`,
-        `The Chelsea midfielder delivered the winner for the defending champions in the second minute of stoppage time, after Argentina had trailed 2-0 with just over 10 minutes left and looked like it was going home.`,
-        `Yasser Ibrahim gave Egypt a shock lead at halftime. Lionel Messi missed a <span class="t" data-d="a free shot from 12 yards out, just the shooter vs. the goalkeeper — awarded for fouls inside the penalty area.">penalty</span> that would've tied it, and Mostafa Zico made it 2-0 in the second half — after an earlier goal of his had been wiped out by <span class="t" data-d="Video Assistant Referee — officials in a replay booth who can review and overturn calls on goals, penalties, and red cards. Doesn't stop people from being furious about the outcome anyway.">VAR</span>.`,
-        `But Cristian Romero's header threw Argentina a lifeline, and after Messi blasted in the equalizer in the 83rd minute, Fernández completed the comeback.`,
-        `Argentina, which had needed extra time to survive a scare against Cape Verde in the previous round, stayed on track to defend the title it won in 2022 in Qatar.`,
-        `Egypt had faced much tougher competition to get this far — a win over New Zealand sandwiched between draws with Belgium and Iran in the group stage, then a penalty-kick shootout win over Australia in the round of 32.`,
-        `After a scrappy start, Egypt grabbed the lead with the game's first shot on target: Ibrahim beat Lisandro Martínez to head in Marwan Attia's cross in the 15th minute.`,
-        `Egypt's lead nearly didn't last. Nicolás Tagliafico went down under a clumsy challenge from Haissem Hassan soon after, but Messi's spot kick was comfortably saved by Egypt goalkeeper Mostafa Shobeir, who dove low to his left to punch it away.`,
-        `Argentina pushed for an equalizer before halftime. Messi's 30-yard free kick clipped the post, and Shobeir made two more big saves, denying Alexis Mac Allister's header and a point-blank chance from Julián Álvarez.`,
-        `Egypt spent most of the second half defending deep. It thought it had doubled its lead on a brilliant goal from Zico in the 58th minute, but VAR wiped it out for a foul earlier in the buildup.`,
-        `Egypt got its second goal anyway nine minutes later: Mohamed Salah and Hassan combined on a counterattack, and Zico finished off a cutback pass in the 67th minute.`,
-        `With 11 minutes left, Argentina got its lifeline: Romero headed in a Messi cross to make it 2-1.`,
-        `Four minutes later, Messi pounced on a loose ball in the box and slammed it home — his eighth goal of the tournament and 21st at World Cups overall — tying the game and setting off the Atlanta Stadium crowd.`,
-        `Then, in the second minute of stoppage time, Fernández sealed it with a hard run into the box to head in Lautaro Martínez's cross for the winner.`
-      ],
-      original: [
-        `Enzo Fernández headed a stoppage-time winner as Argentina produced one of the great World Cup comebacks to beat Egypt 3-2 in Atlanta and reach the quarterfinals.`,
-        `The Chelsea midfielder snatched a thrilling win for the reigning champions in the second minute of added time after his side had trailed 2-0 in the 79th minute and looked to be crashing out.`,
-        `Yasser Ibrahim gave Egypt a shock half-time lead before Lionel Messi's penalty was saved and Mostafa Zico put the Pharaohs 2-0 up in the second period after his earlier effort had been ruled out by VAR.`,
-        `But Cristian Romero's header threw Argentina a lifeline and after Lionel Messi smashed home an 83rd-minute equaliser, Fernandez completed a remarkable fightback.`,
-        `Argentina, who had been given a huge scare by Cape Verde in the previous round, somehow stayed on course for the 'bicampeonato', a successful defence of the World Cup they won in 2022 in Qatar.`,
-        `Egypt faced a big step up in quality after group draws against Belgium and Iran sandwiched a win over New Zealand before they edged Australia in a last-32 penalty shoot-out.`,
-        `But after a scrappy opening they stole into the lead with the first effort on target in the match as Ibrahim got in front of Lisandro Martínez to head home Marwan Attia's excellent cross in the 15th minute.`,
-        `Egypt's shock lead looked set to be short-lived when Nicolás Tagliafico went tumbling under Haissem Hassan's clumsy challenge soon after.`,
-        `But Messi's unconvincing spot-kick was comfortably saved by Egypt goalkeeper Mostafa Shobeir, who dived low to his left to palm the ball away.`,
-        `Argentina pressed for an equaliser before the break, but either side of Messi's 30-yard free-kick, which clipped a post, Shobeir kept out Alexis Mac Allister's header and produced a world-class save to deny Julián Álvarez.`,
-        `Egypt were forced to defend deep and in numbers after the restart, but thought they had doubled their advantage through Mostafa Zico's brilliant goal in the 58th minute, only for VAR to rule it out for a foul in the build-up.`,
-        `The North Africans were not to be denied a second nine minutes later though.`,
-        `Another thrilling counter-attack, involving Mohamed Salah and Hassan, saw the latter's cut-back swept home by Zico in the 67th minute.`,
-        `Argentina responded to the relief of their shell-shocked fans with 11 minutes left when Romero headed home Messi's cross to set up a grandstand finale.`,
-        `Messi then pounced on a loose ball in the box four minutes later to slam home an equaliser - his eighth goal of the tournament and 21st at World Cups in total - which raised the Atlanta Stadium roof.`,
-        `And in the second minute of time added on, Fernandez snatched victory for Argentina with a lung-busting run into the box to head Lautaro Martinez's cross into the top corner and break Egyptian hearts.`
-      ]
-    },
-
-    {
-      id: "usa-belgium-recap",
-      kicker: "BELGIUM 4, USA 1 · ROUND OF 16",
-      headline: "The USMNT's World Cup is over — Belgium hung four goals on it in Seattle",
-      byline: "Original by ESPN News Services · Translated",
-      link: "http://www.espn.com/soccer/report/_/gameId/760507",
-      body: [
-        `The United States' hopes for a deep World Cup run on home soil ended Monday night, when Charles De Ketelaere scored twice and set up another as Belgium exposed the Americans' defense in a 4-1 win that sent Belgium to the quarterfinals.`,
-        `Star forward Folarin Balogun played after FIFA controversially lifted his one-game suspension for a red card — but it didn't matter. American defenders were at fault on a pair of first-half goals, and goalkeeper Matt Freese's blunder gave the <span class="t" data-d="Belgium's national-team nickname — no translation needed, they're just called that. Every country's got one.">Red Devils</span> a third goal early in the second half.`,
-        `Substitute Romelu Lukaku added Belgium's fourth goal in the third minute of <span class="t" data-d="the clock never stops in soccer — instead the referee tacks a few extra minutes onto the end of each half to make up for delays. Also called 'injury time.'">stoppage time</span>.`,
-        `Still chasing its first World Cup title, Belgium knocked the U.S. out in the <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span> for the second time in 12 years and stretched its unbeaten streak to 18 games. The Red Devils play 2010 champion Spain Friday in Inglewood, California, with a semifinal spot against France or Morocco on the line.`,
-        `Malik Tillman tied it 1-1 midway through the first half with his second <span class="t" data-d="a shot awarded after a foul, taken from where the foul happened. Defenders have to stand at least 10 yards away — until they creep up early anyway.">free kick</span> goal of the tournament — but the U.S. gave it right back, allowing a goal just 61 seconds after the ensuing kickoff. Coach Mauricio Pochettino was so furious he kicked a water-bottle rack in front of the bench, sending four bottles flying.`,
-        `American star Christian Pulisic could only watch from the bench after hurting his right foot on a challenge with Belgium captain Youri Tielemans in the 52nd minute. He played on for a few more minutes before coming off in the 59th.`,
-        `Coming in off winning three games in a World Cup for the first time in this 48-team tournament, the U.S. fell short of the quarterfinals for the first time since 2002 and lost to Belgium for the seventh straight time since beating them at the very first World Cup, in 1930. The Americans have now dropped 11 of their last 12 games against European teams, with their only win in that stretch coming against Bosnia-Herzegovina in the round of 32.`,
-        `A golden generation led by Pulisic, Weston McKennie and Tyler Adams only partly delivered on the goal of putting soccer on the same footing as the NFL, MLB and the NBA in this country.`,
-        `De Ketelaere put Belgium ahead in the 8th minute — the first time all tournament the U.S. had <span class="t" data-d="allowed a goal. 'Conceded first' means the other team scored first.">conceded</span> first.`,
-        `Tillman's goal in the 31st minute fired up a largely red-white-and-blue crowd of 66,925 at Lumen Field, but De Ketelaere answered right back, setting up Hans Vanaken's goal in the 57th minute after Freese lost control of the ball in front of his own net.`,
-        `Belgium, which left stars Jérémy Doku and Kevin De Bruyne on the bench, attacked from the start and picked apart a defense that was considered the Americans' weak spot.`,
-        `Dodi Lukébakio sent a long diagonal pass to the far corner. Leandro Trossard controlled it, and his cross deflected off Alex Freeman and popped into the air.`,
-        `Freeman headed the ball into the <span class="t" data-d="the 18-yard box in front of goal. A foul by the defense in here gets you a penalty kick instead of a regular free kick.">penalty area</span>, and Timothy Castagne chased it down and hooked a pass around Chris Richards. De Ketelaere split Tim Ream and Antonee Robinson and finished with his right foot into an empty net.`,
-        `Tillman scored after Brandon Mechele fouled Balogun about 25 yards from goal. His free kick deflected off Vanaken's head and past goalkeeper Thibaut Courtois, who had dived the other way.`,
-        `Things got harder for the U.S. in the 57th minute, when Belgium capitalized on a costly mistake.`,
-        `Freese came way off his line to meet a long ball, but whiffed on the clearance — the ball landed at Vanaken's feet instead, and his shot beat defender Tim Ream and put Belgium back in front.`,
-        `The U.S. pushed for a way back in, and substitute Sebastian Berhalter came close with a shot from distance that just missed the left post.`,
-        `That was as close as it got. The U.S. spent the final stretch camped in Belgium's half but couldn't find the net.`,
-        `Romelu Lukaku's goal in stoppage time was the final blow, sending Belgium through to a quarterfinal against Spain.`,
-        `<i class="wire">Information from the Associated Press and PA was used in this report.</i>`
-      ],
-      original: [
-        `The United States' hopes for a deep World Cup run at home ended when Charles De Ketelaere scored twice and assisted on another goal, helping Belgium expose the Americans' defensive liabilities in a 4-1 win Monday night that earned a quarterfinal berth.`,
-        `While the U.S. was boosted by the presence of star forward Folarin Balogun, whose one-game red-card suspension was controversially lifted by FIFA, American defenders were at fault in a pair of first-half goals and goalkeeper Matt Freese's gaffe gave the Red Devils a third early in the second half.`,
-        `Second-half substitute Romelu Lukaku added Belgium's final goal in the third minute of stoppage time.`,
-        `Seeking its first World Cup title, Belgium knocked the U.S. out in the round of 16 for the second time in 12 years and extended its unbeaten streak to 18 games. The Red Devils play 2010 champion Spain on Friday at Inglewood, California, for a semifinal berth against France or Morocco.`,
-        `Malik Tillman tied the score 1-1 midway through the first half with his second free kick goal of the tournament, but the Americans conceded just 61 seconds after the ensuing kickoff. U.S. coach Mauricio Pochettino showed his frustration by kicking a rack in front of the bench, sending four water bottles flying.`,
-        `American star Christian Pulisic could only watch from the bench after injuring his right foot when he hit a boot of Belgium captain Youri Tielemans on a 52nd-minute shot attempt. Pulisic favored his foot after that and was replaced seven minutes later.`,
-        `After winning three games in a World Cup for the first time in this expanded 48-nation tournament, the U.S. failed in its quest to reach the quarterfinals for the first time since 2002 and lost to Belgium for the seventh straight time since a victory at the initial tournament in 1930. The Americans have dropped 11 of their last 12 games against European opponents, winning only their round of 32 match against Bosnia-Herzegovina.`,
-        `A heralded generation led by Pulisic, Weston McKennie and Tyler Adams only partially accomplished their goal of lifting soccer's stature closer to that of the NFL, MLB and the NBA.`,
-        `De Ketelaere put Belgium ahead in the eighth minute, the first time in this year's World Cup the U.S. conceded first.`,
-        `Tillman's goal in the 31st minute energized a largely red-white-and-blue crowd of 66,925 at Lumen Field, but De Ketelaere damped that and assisted on Hans Vanaken's 57th-minute goal after Freese lost control of the ball in front of his net.`,
-        `Belgium, which left stars Jérémy Doku and Kevin De Bruyne on the bench, pressed from the start and exposed a defense that was regarded as the Americans' weak spot.`,
-        `Dodi Lukébakio made a long diagonal pass to the opposite corner, leading to the opening goal. Leandro Troussard controlled the ball and his cross was blocked by Alex Freeman and popped into the air.`,
-        `Freeman headed the ball into the penalty area and Timothy Castagne charged after it and hooked a centering pass around Chris Richards. De Ketelaere split Tim Ream and Antonee Robinson and with his right foot redirected the ball into an open net.`,
-        `Tillman scored after Brandon Mechele knocked down Balogun about 25 yards from goal. Tillman's kick deflected off Vanaken's head and deflected to the left of goalkeeper Thibaut Courtois, who had dived right.`,
-        `Their task got more difficult in the 57th minute when Belgium made the most of an unforced error.`,
-        `U.S. goalkeeper Matt Freese came way off his line to meet a long ball but his attempted kick only found the turf, with the ball instead ending up in the possession of Hans Vanaken, whose shot beat defender Tim Ream and gave Belgium some breathing room.`,
-        `The U.S. were desperate to claw one back, and substitute Sebastian Berhalter almost did just that with a shot from deep which just barely whizzed past the left post.`,
-        `His attempt generated some much-needed momentum for the U.S., who spent most of the final stages of the match camped in their attacking third but could not find the back of the net.`,
-        `A Romelu Lukaku goal in added time was ultimately the dagger in the heart for the U.S., with Belgium progressing to a quarterfinal clash with Spain.`
-      ]
     },
 
     {
@@ -308,6 +187,52 @@ window.SITE_DATA = {
           <li><b>33rd–48th place:</b> $10 million</li>
         </ul>`,
         `<i class="wire">Reporting by ESPN's Jeff Carlisle contributed to this story.</i>`
+      ],
+      original: null
+    },
+
+    {
+      id: "guimaraes-penalty-miss",
+      kicker: "NORWAY 2, BRAZIL 1 · PENALTY HEARTBREAK",
+      headline: "Bruno Guimarães opens up about missing the penalty that could have saved Brazil's World Cup",
+      byline: "Original by Adriana Garcia, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49304505/bruno-guimaraes-brazil-norway-world-cup-2026-penalty-miss",
+      body: [
+        `Brazil midfielder Bruno Guimarães has broken his silence on the missed <span class="t" data-d="a free shot from 12 yards out, just the shooter vs. the goalkeeper.">penalty</span> that could have put his team ahead in its 2-1 <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span> loss to Norway.`,
+        `With the score still 0-0 on Sunday, Norway goalkeeper Ørjan Nyland guessed right and saved the Newcastle midfielder's spot kick. Norway went on to eliminate Brazil, sending the five-time champion out of the World Cup earlier than in any tournament since 1990.`,
+        `"It's agonizing, it hurts a lot but it will be just another obstacle to overcome," Guimarães said.`,
+        `He's the first Brazilian player to miss a penalty at a World Cup outside a shootout since 1986. Guimarães called it the "saddest day of my life."`
+      ],
+      original: null
+    },
+
+    {
+      id: "egypt-fa-referee-statement",
+      kicker: "ARGENTINA 3, EGYPT 2 · THE FALLOUT CONTINUES",
+      headline: "Egypt's soccer federation says it 'cannot remain silent' about the officiating in its World Cup exit",
+      byline: "Original by ESPN News Services · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49305559/egypt-argentina-world-cup-2026-referee-var-knockout",
+      body: [
+        `Egypt's soccer federation says it "cannot remain silent regarding the refereeing decisions" from Tuesday's <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span> loss to Argentina, keeping alive the fallout from one of the tournament's most controversial games.`,
+        `Argentina won 3-2 in Atlanta after trailing 2-0, with Enzo Fernández scoring the winner in the second minute of <span class="t" data-d="the clock never stops in soccer — instead the referee tacks a few extra minutes onto the end of each half to make up for delays. Also called 'injury time.'">stoppage time</span>.`,
+        `The federation's complaints center on <span class="t" data-d="Video Assistant Referee — officials in a replay booth who can review and overturn calls on goals, penalties, and red cards. Doesn't stop people from being furious about the outcome anyway.">VAR</span>: Egypt had a goal ruled out on review in the second half, and officials didn't review a potential foul by Alexis Mac Allister in the buildup to Fernández's winning goal.`,
+        `In its statement, the Egyptian Football Association said "several key incidents raised serious concerns and left profound questions about the consistency and fairness of decisions that directly influenced the course of the game."`,
+        `Egypt coach Hossam Hassan had already voiced similar anger right after the loss, accusing officials of tilting the game toward Lionel Messi and Argentina.`
+      ],
+      original: null
+    },
+
+    {
+      id: "dalic-croatia-steps-down",
+      kicker: "CROATIA · WORLD CUP EXIT AFTERMATH",
+      headline: "Croatia's longtime coach Zlatko Dalić steps down after its World Cup ends against Portugal",
+      byline: "Original by ESPN News Services · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49305676/zlatko-dalić-steps-croatia-boss-world-cup-exit",
+      body: [
+        `Croatia's coach Zlatko Dalić has stepped down following the team's World Cup exit, the Croatian Football Federation announced, ending his nearly nine-year run in charge of the national team.`,
+        `Dalić, 59, took over in October 2017 and led Croatia to the 2018 World Cup final before this tournament ended in the <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round of 32</span> against Portugal.`,
+        `"I have always said that there is no greater honor than leading my national team... As much as I still feel the ambition and desire to write new successes with Croatia, I feel that this is the right moment to conclude this incredible era," Dalić said.`,
+        `The federation called his time in charge an "unforgettable journey" and his departure a "proud farewell." A successor hasn't been announced yet.`
       ],
       original: null
     }
