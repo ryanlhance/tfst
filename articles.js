@@ -4,7 +4,7 @@
 
 window.SITE_DATA = {
   updated: "July 8, 2026",
-  refreshedAt: "2026-07-08T14:30:00-04:00",
+  refreshedAt: "2026-07-08T16:05:00-04:00",
 
   articles: [
     {
@@ -25,6 +25,98 @@ window.SITE_DATA = {
           <li><b>Switzerland 0-0 Colombia (Switzerland win 4-3 on <span class="t" data-d="a shootout to decide a tied knockout game: five kicks each from the penalty spot, sudden death if it's still tied after that.">penalties</span>)</b> — The round of 16's last game was its quietest. 120 scoreless minutes in Vancouver, then Switzerland won a World Cup shootout for the first time ever to reach the quarterfinals for the first time since it hosted the tournament in 1954.</li>
           <li><b>Quarterfinals are set:</b> Morocco-France (Thursday, Foxborough, Mass.), Belgium-Spain (Friday, Inglewood, Calif.), England-Norway and Switzerland-Argentina (both Saturday, in Miami Gardens, Fla. and Kansas City, Mo., respectively).</li>
         </ul>`
+      ],
+      original: null
+    },
+
+    {
+      id: "bieber-halftime",
+      kicker: "WORLD CUP FINAL · HALFTIME SHOW",
+      headline: "Justin Bieber is joining Madonna, Shakira and BTS for the World Cup final's halftime show",
+      byline: "Original by Associated Press · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49308434/justin-bieber-2026-world-cup-final-half-show-lineup",
+      body: [
+        `Justin Bieber is joining the World Cup final's halftime show, FIFA announced Wednesday, adding another star name to a lineup that already includes Madonna, Shakira and BTS.`,
+        `Afrobeats star Burna Boy, Venezuelan conductor Gustavo Dudamel and the PS22 Chorus — a choir of elementary school kids from Staten Island, New York — are performing too, with the choir joined by Coldplay.`,
+        `The 11-minute halftime show, put together by Coldplay's Chris Martin, happens during the final outside New York on July 19. It's raising money for the FIFA Global Citizen Education Fund, which is trying to raise $100 million to help kids get access to education and soccer.`,
+        `"The FIFA World Cup brings the world together in a way nothing else can," Bieber said in a statement. "I'm grateful to be part of this Halftime Show, and even more grateful knowing it's already helping expand access to education for children around the world."`,
+        `Burna Boy's addition stands out for a specific reason: he's one half of this year's official World Cup song, "Dai Dai," alongside Shakira.`,
+        `The song blends Afrobeats and Latin rhythms into one global, multilingual pop track. In one verse, Shakira name-checks a bunch of the World Cup's best-known teams: "Brazil, Uruguay, Argentina, Colombia," she sings. "Mexico, Japan, Korea, Netherlands."`,
+        `"The FIFA World Cup is one of the few moments that truly brings the entire world together," Burna Boy said in a statement. "To represent Africa on the first-ever FIFA World Cup Final Halftime Show is a privilege and a responsibility that I don't take lightly."`,
+        `Halftime shows the size of the Super Bowl's aren't normal in soccer — the <span class="t" data-d="Europe's top annual club competition — the best teams from every country's league play each other for it. The closest thing club soccer has to its own World Cup, except it happens every year.">Champions League</span> final, for instance, just gets a pregame concert.`,
+        `This year's World Cup halftime show will also include some of the Muppets from "Sesame Street," plus Kermit and Miss Piggy.`
+      ],
+      original: null
+    },
+
+    {
+      id: "bouaddi-morocco-france",
+      kicker: "MOROCCO VS. FRANCE · QUARTERFINAL PREVIEW",
+      headline: "France could have had him. Instead, 18-year-old Ayyoub Bouaddi lines up against Les Bleus for Morocco",
+      byline: "Original by Julien Laurens, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49308168/after-rejecting-france-bouaddi-end-their-world-cup-morocco",
+      body: [
+        `In another life, Ayyoub Bouaddi would be wearing France's blue jersey in Thursday's World Cup quarterfinal in Boston, not Morocco's red. His coach would be France's Didier Deschamps, not Morocco's Mohamed Ouahbi. His midfield partner would be Adrien Rabiot, not Neïl El Aynaoui — another French-born player who could also have played for the other side. His captain could be Kylian Mbappé instead of Achraf Hakimi.`,
+        `To a lot of people in France, "losing" a talent like the 18-year-old midfielder to Morocco is a massive mistake.`,
+        `Bouaddi was born in Senlis, an hour north of Paris, and played for France at every youth level — he even captained France's under-21 team at 17. He wanted to play for the 2018 world champions, and turned Morocco down as recently as several months ago for the <span class="t" data-d="Africa's continental championship for national teams — the African version of the Euros, held every two years.">Africa Cup of Nations</span>, even after Morocco's previous coach, Walid Regragui, tried to talk him into picking the country his parents are from.`,
+        `Six months later, the prodigy didn't want to wait any longer for a shot at the sport's biggest stage. He didn't want to miss the 2026 World Cup.`,
+        `Deschamps could have called him up during the last international break in March — and earlier than that, too — and brought him to the U.S. with France. It never happened.`,
+        `Deschamps has watched him play plenty of times and knows exactly how talented he is — obviously, given how this World Cup has gone, Bouaddi has generational upside. Deschamps remembers him making his pro debut at 16 for Lille, and running the midfield against Real Madrid in the Champions League group stage on his 17th birthday in October 2024. Even so, Deschamps preferred N'Golo Kanté and Warren Zaïre-Emery as backup options behind his first-choice trio of Manu Koné, Rabiot and Aurélien Tchouaméni.`,
+        `"In midfield, we have a lot of talent already, and Didier doesn't want to block anyone," Deschamps' assistant, Guy Stephan, explained Monday when asked why Bouaddi wasn't with France. "Tchouaméni, Rabiot, Kanté, Zaïre-Emery, Koné. If I ask you which one you would take out [to put in Bouaddi], I am not sure I would have the same answer from all of you here."`,
+        `France's midfield really is deep and talented. But Kanté is 35 and hasn't played a single minute this tournament — he has plenty of experience and a 2018 World Cup winner's medal, but Bouaddi, talented as he is, could arguably have taken his spot instead.`,
+        `"[Bouaddi] has the freedom to choose which country he wants to play for," Deschamps said back in March. "I haven't spoken to him; this is not how I proceed. When I call up a player, it is because it is the right time or because I consider he can be useful for the France A team. Of course, we follow his performances. But obviously, there is strong competition in his position."`,
+        `Zinedine Zidane, who takes over as France's coach after the World Cup, called Bouaddi a few weeks ago — likely prompted by the French federation worrying about losing him — and was straight with him. According to ESPN sources, Zidane told Bouaddi he liked him but couldn't promise him anything.`,
+        `Morocco, unlike France, was certain: new coach Ouahbi guaranteed Bouaddi a spot at the 2026 World Cup, and that he'd even start games in the U.S. That was enough to make up his mind.`,
+        `So, like five other French-born teammates — including Issa Diop and El Aynaoui, who also came up through France's youth teams — Bouaddi faces his country of birth Thursday in what should be the best quarterfinal of the four.`,
+        `France's camp is looking forward to it: a rematch of the 2022 World Cup semifinal in Qatar, which France won 2-0. It's the toughest test France has faced yet in this tournament. Everyone else in its path has gone down either with style, like Sweden in the <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round of 32</span>, or through grit, like Paraguay in the <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span>.`,
+        `Losing Tchouaméni to injury for this game — he should be back for a possible semifinal — is a real blow, but it's the only setback Deschamps and his staff have had all tournament. Otherwise, the coach has liked everything he's seen from his players.`,
+        `France's three main attackers — Mbappé, Ousmane Dembélé and Michael Olise — already have 20 combined goals and assists at this World Cup: seven goals and two assists for the captain, four goals and two assists for the <span class="t" data-d="soccer's award for the world's best player over a calendar year — like an MVP award, but for the whole sport, given out every year.">Ballon d'Or</span> holder, and five assists for the Bayern Munich winger. That matches what Ronaldo, Rivaldo and Ronaldinho combined for (15 goals, five assists) when Brazil won the 2002 World Cup — and France could still have three games left to play.`,
+        `The mood inside the France squad is good: fun, camaraderie, solidarity, hard work and respect. Deschamps losing his mother earlier in the tournament — he briefly flew home for it — brought the group closer together.`,
+        `These are also Deschamps' final days in charge of these players, 14 years after he took the job and eight years after winning the World Cup with them. Thursday could be the end of his reign, or it could continue a little longer. Only three games separate this team from another World Cup title.`,
+        `France has been the favorite since Day 1 and still is. Whether it's Bouaddi and Morocco on Thursday, or someone else down the road, whoever wants to stop France is going to have to be very good.`
+      ],
+      original: null
+    },
+
+    {
+      id: "us-betting-record",
+      kicker: "USMNT ELIMINATION · THE MONEY SIDE",
+      headline: "The USMNT's World Cup exit was a record night for American sportsbooks — a good one, for them",
+      byline: "Original by Doug Greenberg, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49300759/us-world-cup-loss-sets-betting-records-net-profits-house",
+      body: [
+        `The United States' run at its home World Cup produced record betting volume — and when that run ended, it turned into a big payday for American sportsbooks.`,
+        `Monday night's USMNT loss to Belgium in the round of 16 became the most-bet soccer game in the history of several major U.S. sportsbooks. BetMGM said more money was wagered on it than on any 2026 College Football Playoff game outside the championship, the men's college basketball title game, or any championship-series game in the NBA, NHL or MLB.`,
+        `Sportsbooks said the most-bet-soccer-game record kept falling throughout the tournament, going back to the group stage — FanDuel said the first two U.S. games alone had cleared that bar. The Americans' win over Bosnia-Herzegovina broke the record at Caesars Sportsbook, then got topped almost immediately by Argentina-Cape Verde, then again by Mexico's loss to England right after that.`,
+        `American bettors backed the home team heavily all tournament, both game-by-game and on bets for the U.S. to win it all — which meant Monday's loss ended up being a big win for the sportsbooks.`,
+        `Sportsbooks call the total amount of money wagered on a game its "handle." BetMGM senior trading manager Christian Cipollini said this World Cup delivered record handle from the jump.`,
+        `"This World Cup has been record-type handle stuff for us this whole time," Cipollini told ESPN. "There's a ton of excitement throughout the country. No matter where you are, it feels like World Cup fever hit everybody this summer. And I think another major factor in this is the timing of the games. Obviously being on U.S. soil is huge, but the fact that the USA game last night was played at eight o'clock in primetime is such a major factor."`,
+        `Caesars Sportsbook head of soccer Mark Bickerdike said 81% of the money bet was on the U.S. to advance, with a lot of it also riding on Folarin Balogun to score, given how much attention his controversial roster spot got.`,
+        `Cipollini added that the specific odds on the Belgium game — the U.S. came in as a -130 favorite to advance, per DraftKings — made it especially profitable for sportsbooks, since American bettors are more drawn to a close line than to a lopsided favorite or underdog. He said it was one of the sportsbook's biggest winners of the year across any sport, and Bickerdike called it "a better night for the book" after taking a beating during the Americans' wins.`,
+        `At Circa Sports in Las Vegas, one bettor placed a $750,000 bet on the U.S. to advance at -130 odds.`,
+        `The U.S. had been the biggest liability on the board — the team sportsbooks stood to lose the most money on — at nearly every major American book, so its elimination let bookmakers breathe easier. Portugal, eliminated earlier Monday by Spain, had also been a notable liability.`,
+        `BetMGM and Caesars are now watching France, which has drawn heavy betting interest both since the tournament started and, at long odds, since the market opened four years ago.`,
+        `With the U.S. out, it's an open question whether betting volume can keep pace with the tournament's first few weeks. Cipollini expects some drop-off, but said stars like Lionel Messi, Kylian Mbappé and Erling Haaland playing well keeps him optimistic, especially since bettors keep wagering on — and winning on — those players to score.`,
+        `"While fans are certainly disappointed with the [U.S.] result, we don't expect it to slow the momentum we've seen around the World Cup," DraftKings Sportsbook director Johnny Avello told ESPN over email. "Bettors have been engaged across the entire tournament, and with several marquee matchups still to come, we expect the excitement -- and the betting action -- to remain strong through the final match."`,
+        `France is the current favorite to win the World Cup at +180, followed by Spain (+370), Argentina (+420) and England (+470), according to DraftKings odds.`
+      ],
+      original: null
+    },
+
+    {
+      id: "henderson-arm-surgery",
+      kicker: "ENGLAND · INJURY UPDATE",
+      headline: "Jordan Henderson had surgery on the arm he broke celebrating England's Mexico win — and he's done for the World Cup",
+      byline: "Original by Tom Hamilton, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49306669/england-jordan-henderson-undergoes-surgery-broken-arm-mexico-fifa-world-cup",
+      body: [
+        `Jordan Henderson had surgery on his arm in Kansas City, Missouri, after breaking it while celebrating England's 3-2 win over Mexico on Sunday.`,
+        `Henderson, 36, tripped over an advertising board as he climbed back onto the field to celebrate with England fans. He landed awkwardly on his arm and was stretchered off with oxygen.`,
+        `Henderson stayed in Mexico the night of the game, then flew back to England's base in Kansas City for surgery on the broken arm.`,
+        `"Surgery done! Now let's get ready for the big one Saturday," Henderson said in an Instagram post.`,
+        `The Brentford midfielder will miss the rest of the World Cup, but reportedly wants to stay with the team in Kansas City while it gets ready for Saturday's quarterfinal against Norway in Miami.`,
+        `Losing Henderson thins out England's central midfield options, leaving Declan Rice, Elliot Anderson, Jude Bellingham and Kobbie Mainoo as the choices there.`,
+        `Henderson played against Panama in England's final group-stage game, becoming the first England men's player to appear in four World Cups.`
       ],
       original: null
     },
@@ -145,94 +237,6 @@ window.SITE_DATA = {
         `The pain is real, but — in time — the pride will be too.`,
         `Egypt showed it belonged at this level. It held Belgium, advanced through the group, eliminated Australia on penalties, and then came within minutes of eliminating the defending champion. It neutralized Messi almost to the very end, made Lionel Scaloni sweat, and made Argentina feel what it's like to survive yet another scare.`,
         `Tonight, for the Pharaohs, there's pain. Tomorrow, there will be pride. And for the future? This night will be remembered as proof that, finally, Africa's most successful team has arrived on the world stage.`
-      ],
-      original: null
-    },
-
-    {
-      id: "us-soccer-prize-money",
-      kicker: "AFTER THE ROUND OF 16 · WHAT THE U.S. GOT PAID",
-      headline: "The men's World Cup run was worth $16 million — and by contract, half of it goes to the women's team too",
-      byline: "Original by Jeff Kassouf, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49301582/us-men-women-get-equal-split-16m-world-cup-prize",
-      body: [
-        `The United States men earned U.S. Soccer $16 million in prize money from FIFA for reaching the round of 16 at the 2026 World Cup, where the Americans lost 4-1 to Belgium.`,
-        `That prize money will be split evenly between the 26 men on the U.S. roster and the 26 women who make next year's U.S. roster for the 2027 Women's World Cup — assuming the Americans qualify.`,
-        `Men's and women's players split World Cup prize money equally under the collective bargaining agreements U.S. Soccer signed with both national teams in 2022. Those agreements came after nearly six years of the women's national team publicly fighting — and suing — U.S. Soccer over equal pay.`,
-        `Under the agreements, U.S. Soccer keeps 20% of the prize money from each World Cup, with the other 80% split equally between the men's and women's players who make their respective World Cup rosters. That 40% works out to $6.4 million per team, or $246,153.85 per player.`,
-        `The same split between the federation and the men's and women's national teams will apply to the 2027 Women's World Cup prize money the U.S. collects — with a few catches.`,
-        `The first and most obvious catch: the U.S. women have to qualify for the 2027 World Cup first. That's widely assumed to be a given for the four-time World Cup champions, but they still have to beat El Salvador on Nov. 27 in a win-and-you're-in Concacaf quarterfinal.`,
-        `Second, that per-player payout figure above should grow a little (again, assuming the U.S. women qualify).`,
-        `The collective bargaining agreements require the federation to pay the men's players their prize money within 31 days of U.S. Soccer receiving it from FIFA.`,
-        `But since the U.S. women still have to qualify for the World Cup, and the 26 players on that roster won't be set until next spring, the $6.4 million owed to the women's players will sit in an interest-bearing account in the meantime, per the agreements.`,
-        `The interest earned on that money would then be split equally between the 52 World Cup players — the 26 men from this year and the 26 women from next year — as would the prize money the U.S. women earn in 2027. All of that would have to be paid out by U.S. Soccer within 31 days of the federation receiving payment from FIFA for the 2027 Women's World Cup.`,
-        `The total prize money for the 2027 Women's World Cup hasn't been confirmed yet either.`,
-        `FIFA president Gianni Infantino has said before that he wants to equalize men's and women's prize money by the 2027 World Cup. He said that before the huge increase to prize money at this year's expanded men's tournament, which nearly doubled from four years ago — though the field also grew from 32 to 48 teams.`,
-        `The 2023 Women's World Cup paid out $110 million total, up from $30 million in 2019.`,
-        `All of the above is just FIFA prize money. U.S. Soccer also pays both its men's and women's players $10,000 per World Cup game, win or lose.`,
-        `Had the U.S. men beaten Belgium and reached the quarterfinals, they'd have brought in $20 million in prize money, leaving $8 million for each of the men's and women's national teams.`,
-        `The U.S. men last reached the quarterfinals in 2002.`,
-        `The U.S. women were knocked out in the round of 16 for the first time in 2023, after finishing third or better in every previous World Cup. FIFA's reward for that 2023 finish was $1.87 million.`,
-        `The U.S. women have won four World Cups, including back-to-back titles in 2015 and 2019. The 2019 title came in the middle of their six-year fight with the federation.`,
-        `Prize money for each 2026 men's World Cup team was increased from what was originally announced in December, a FIFA spokesperson confirmed to ESPN. Additional funding was announced in April, after the FIFA Congress in Vancouver, though the exact updated totals weren't spelled out at the time.`,
-        `ESPN confirmed the updated prize totals for the 2026 men's World Cup are as follows:`,
-        `<ul class="catchup">
-          <li><b>Winners:</b> $51 million</li>
-          <li><b>Runners-up:</b> $34 million</li>
-          <li><b>3rd place:</b> $30 million</li>
-          <li><b>4th place:</b> $28 million</li>
-          <li><b>5th–8th place:</b> $20 million</li>
-          <li><b>9th–16th place:</b> $16 million</li>
-          <li><b>17th–32nd place:</b> $12 million</li>
-          <li><b>33rd–48th place:</b> $10 million</li>
-        </ul>`,
-        `<i class="wire">Reporting by ESPN's Jeff Carlisle contributed to this story.</i>`
-      ],
-      original: null
-    },
-
-    {
-      id: "guimaraes-penalty-miss",
-      kicker: "NORWAY 2, BRAZIL 1 · PENALTY HEARTBREAK",
-      headline: "Bruno Guimarães opens up about missing the penalty that could have saved Brazil's World Cup",
-      byline: "Original by Adriana Garcia, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49304505/bruno-guimaraes-brazil-norway-world-cup-2026-penalty-miss",
-      body: [
-        `Brazil midfielder Bruno Guimarães has broken his silence on the missed <span class="t" data-d="a free shot from 12 yards out, just the shooter vs. the goalkeeper.">penalty</span> that could have put his team ahead in its 2-1 <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span> loss to Norway.`,
-        `With the score still 0-0 on Sunday, Norway goalkeeper Ørjan Nyland guessed right and saved the Newcastle midfielder's spot kick. Norway went on to eliminate Brazil, sending the five-time champion out of the World Cup earlier than in any tournament since 1990.`,
-        `"It's agonizing, it hurts a lot but it will be just another obstacle to overcome," Guimarães said.`,
-        `He's the first Brazilian player to miss a penalty at a World Cup outside a shootout since 1986. Guimarães called it the "saddest day of my life."`
-      ],
-      original: null
-    },
-
-    {
-      id: "egypt-fa-referee-statement",
-      kicker: "ARGENTINA 3, EGYPT 2 · THE FALLOUT CONTINUES",
-      headline: "Egypt's soccer federation says it 'cannot remain silent' about the officiating in its World Cup exit",
-      byline: "Original by ESPN News Services · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49305559/egypt-argentina-world-cup-2026-referee-var-knockout",
-      body: [
-        `Egypt's soccer federation says it "cannot remain silent regarding the refereeing decisions" from Tuesday's <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span> loss to Argentina, keeping alive the fallout from one of the tournament's most controversial games.`,
-        `Argentina won 3-2 in Atlanta after trailing 2-0, with Enzo Fernández scoring the winner in the second minute of <span class="t" data-d="the clock never stops in soccer — instead the referee tacks a few extra minutes onto the end of each half to make up for delays. Also called 'injury time.'">stoppage time</span>.`,
-        `The federation's complaints center on <span class="t" data-d="Video Assistant Referee — officials in a replay booth who can review and overturn calls on goals, penalties, and red cards. Doesn't stop people from being furious about the outcome anyway.">VAR</span>: Egypt had a goal ruled out on review in the second half, and officials didn't review a potential foul by Alexis Mac Allister in the buildup to Fernández's winning goal.`,
-        `In its statement, the Egyptian Football Association said "several key incidents raised serious concerns and left profound questions about the consistency and fairness of decisions that directly influenced the course of the game."`,
-        `Egypt coach Hossam Hassan had already voiced similar anger right after the loss, accusing officials of tilting the game toward Lionel Messi and Argentina.`
-      ],
-      original: null
-    },
-
-    {
-      id: "dalic-croatia-steps-down",
-      kicker: "CROATIA · WORLD CUP EXIT AFTERMATH",
-      headline: "Croatia's longtime coach Zlatko Dalić steps down after its World Cup ends against Portugal",
-      byline: "Original by ESPN News Services · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49305676/zlatko-dalić-steps-croatia-boss-world-cup-exit",
-      body: [
-        `Croatia's coach Zlatko Dalić has stepped down following the team's World Cup exit, the Croatian Football Federation announced, ending his nearly nine-year run in charge of the national team.`,
-        `Dalić, 59, took over in October 2017 and led Croatia to the 2018 World Cup final before this tournament ended in the <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round of 32</span> against Portugal.`,
-        `"I have always said that there is no greater honor than leading my national team... As much as I still feel the ambition and desire to write new successes with Croatia, I feel that this is the right moment to conclude this incredible era," Dalić said.`,
-        `The federation called his time in charge an "unforgettable journey" and his departure a "proud farewell." A successor hasn't been announced yet.`
       ],
       original: null
     }
