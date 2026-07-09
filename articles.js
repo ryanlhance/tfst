@@ -4,7 +4,7 @@
 
 window.SITE_DATA = {
   updated: "July 9, 2026",
-  refreshedAt: "2026-07-09T08:30:00-04:00",
+  refreshedAt: "2026-07-09T11:46:00-04:00",
 
   articles: [
     {
@@ -25,6 +25,75 @@ window.SITE_DATA = {
           <li><b>Switzerland 0-0 Colombia (Switzerland win 4-3 on <span class="t" data-d="a shootout to decide a tied knockout game: five kicks each from the penalty spot, sudden death if it's still tied after that.">penalties</span>)</b> — The round of 16's last game was its quietest. 120 scoreless minutes in Vancouver, then Switzerland won a World Cup shootout for the first time ever to reach the quarterfinals for the first time since it hosted the tournament in 1954.</li>
           <li><b>Quarterfinals are set:</b> Morocco-France (Thursday, Foxborough, Mass.), Belgium-Spain (Friday, Inglewood, Calif.), England-Norway and Switzerland-Argentina (both Saturday, in Miami Gardens, Fla. and Kansas City, Mo., respectively).</li>
         </ul>`
+      ],
+      original: null
+    },
+
+    {
+      id: "pulisic-microfracture",
+      kicker: "BELGIUM 4, USA 1 · THE FALLOUT",
+      headline: "Sources: Christian Pulisic's injury in the Belgium loss was a microfracture — he's out for weeks",
+      byline: "Original by Jeff Carlisle, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49315041/usa-christian-pulisic-suffered-microfracture-belgium-sources",
+      body: [
+        `Christian Pulisic's last game of the World Cup was worse than it looked. Sources confirmed to ESPN that the U.S. star and AC Milan forward suffered a bone bruise and a microfracture — a small crack in the bone — in his lower leg during the round-of-16 loss to Belgium, and he'll be out for several weeks. The Athletic first reported the injury.`,
+        `It happened seven minutes into the second half of the USMNT's 4-1 <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round-of-16</span> loss, when Pulisic went to take a shot and instead caught the back of Belgian midfielder Youri Tielemans' leg.`,
+        `He tried to keep playing for a few minutes before Sebastian Berhalter replaced him in the 59th minute — right around the time a mistake by goalkeeper Matt Freese let Belgium's Hans Vanaken make it 3-0.`,
+        `"I just totally twisted my ankle and my knee in one play," Pulisic said after the match. "I mean, whatever. I have time to rest. It's just unfortunate way to finish."`,
+        `It capped a tournament full of injury trouble for Pulisic. He first hurt his calf in training two days before the USMNT's opener against Paraguay, then aggravated it during that game and had to come off at halftime.`,
+        `He sat out the following match against Australia, played just 32 minutes against Türkiye, then worked his way back to a full 88 minutes in the 2-0 <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round-of-32</span> win over Bosnia-Herzegovina.`,
+        `A source told ESPN that Pulisic is expected to miss four to six weeks, putting him back in training with AC Milan sometime in August — right as the club begins a new era under manager Rubén Amorim. Milan opens its season Aug. 23 against Torino.`
+      ],
+      original: null
+    },
+
+    {
+      id: "usmnt-report-card",
+      kicker: "USMNT · WORLD CUP REPORT CARD",
+      headline: "Grading the USMNT's World Cup: Pochettino's team went from thrilling to deflated in a hurry",
+      byline: "Original by Jeff Carlisle, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49314124/usa-world-cup-report-card-grades-mauricio-pochettino-christian-pulisic-analysis",
+      body: [
+        `The U.S. men's national team's run through this World Cup is enough to give you whiplash. It started about as well as it could have, with a 4-1 blowout of Paraguay. Solid wins over Australia in the group stage, then Bosnia-Herzegovina in the round of 32, sandwiched a meaningless loss to Türkiye that came with coach Mauricio Pochettino making a pile of lineup changes.`,
+        `Then the bottom fell out in the round of 16: a 4-1 loss to Belgium as deflating as the Paraguay win had been exciting. It was as if the U.S. did all its homework, aced the quizzes, then bombed the final exam.`,
+        `So grading this team depends a lot on how much weight you put on that final result. Here's how the USMNT's World Cup report card reads.`,
+        `<b>Physicality: B+</b>`,
+        `By almost any measure, the USMNT was among the fittest teams at this World Cup through the round of 16 — with some caveats. The U.S. played in close-to-perfect weather, with two games apiece in the Los Angeles area and Seattle, and the roof at SoFi Stadium kept the sun off. The team also avoided any brutal weather or altitude the way some opponents didn't.`,
+        `Style plays into it too. Pochettino's team pressed hard and ran constantly, and FIFA's tracking data backs that up: the U.S. ranked fourth of 48 teams in average speed (6.23 km/h), and eighth both in distance covered per game (118,979 meters) and sprints per game (489.2).`,
+        `One team that ranked above the U.S. in all of those categories: Belgium. As athletic as this U.S. team was, it still lost the physical battle in midfield against players like Dodi Lukébakio and (before he got hurt) Amadou Onana. As one source who asked not to be named put it: "When better teams match or better your work rate, you're dead."`,
+        `Overall, the U.S. held its own athletically, including against physical teams like Australia and Bosnia — but Belgium showed there's still room to grow.`,
+        `<b>Tactical approach: B+</b>`,
+        `Pochettino's <span class="t" data-d="an aggressive tactic where the team without the ball chases immediately to win it back near the other team's goal, instead of dropping back to defend.">high-pressing</span> style has been his trademark for years, shaped by the influence of Marcelo Bielsa and Gerardo "Tata" Martino. It took a while for his ideas to sink in, but the players eventually bought in.`,
+        `There's not much to criticize about the personnel Pochettino picked to run it. There was some concern when he named his 26-man roster on May 26 that the team was light in midfield, but it never really became a problem.`,
+        `Up front, alongside the high press, there was an emphasis on wing play — which made sense given the team's strengths. Christian Pulisic remained the most talented attacking player on the roster, and pushing Sergiño Dest further forward was the right call given his limitations defensively.`,
+        `Defensively, Pochettino used Alex Freeman as a hybrid center back in possession and an outside back off the ball. Freeman added athleticism to the back line — he was one of the few U.S. players to come out of the Belgium game with credit — and it let Antonee Robinson get forward on the other flank.`,
+        `Pochettino's tactics did run into trouble against a more talented Belgium team, but the overall thinking behind them held up.`,
+        `<b>Tactical execution: C+</b>`,
+        `On the surface, it worked. The USMNT scored 11 goals, blowing past its previous World Cup record of seven, and its three wins were also a record. The approach felt quintessentially American: aggressive, front-footed, confident.`,
+        `Defensively, the U.S. allowed 10.15 <span class="t" data-d="passes per defensive action — a stat that counts how many passes the other team strings together before you tackle, intercept, or foul them. Lower means your press is working.">PPDA</span>, the sixth-best mark of the tournament — a sign the press was doing its job of winning the ball back fast. The first four games were genuinely impressive.`,
+        `"When you start the World Cup off on the front foot with energy to create some chances and get some goals, then that's big. That creates momentum," former USMNT manager Bob Bradley told ESPN. "That created tremendous excitement in the country in the World Cup where you're hosting."`,
+        `But it was papering over some cracks. Two of the goals were gifts from opponents' own defenders, and five more came from set pieces. After the Paraguay game, the U.S. managed just one goal from open play — Folarin Balogun's against Bosnia-Herzegovina.`,
+        `"With all of our good play, I still felt that our ability to create chances in open play and have different ways to get into the box and create chances was [a concern]," Bradley said. "And then ... there were moments [in friendlies] against Germany and Senegal where the connection defensively and the fact that in some moments guys tuned out or ball watched. And some of the situations that came up in those games still were concerns on what would happen when you played better teams down the line."`,
+        `Those concerns came true, and the numbers back it up. The Americans' <span class="t" data-d="a stat estimating how many goals a team 'should' have scored based on the quality of the chances it created — a way of measuring danger, not just shots.">expected goals</span> (xG) per game for the tournament was 1.2, tied for 23rd of 48 teams. Against Belgium specifically, sloppy defending let the Red Devils score twice in the first half.`,
+        `With Belgium often skipping past the U.S. midfield and playing direct to win the second ball, the American press lost its bite. The U.S. also lost more individual battles than it won, taking just 44.4% of first-half duels. Against an athletic Belgian team, there was no way back from there.`,
+        `The lesson: tactics matter, but only so much.`,
+        `<b>Psychological prep: C</b>`,
+        `This one splits into two phases: before Belgium, and everything after.`,
+        `Credit Pochettino first for building real team spirit — every player pulling the same direction. It showed in training, where players were smiling through sessions, and in the way the team closed out the Bosnia-Herzegovina game playing the last 35 minutes with 10 men to hold on for a 2-0 win.`,
+        `U.S. captain Tim Ream praised how Pochettino brought the group together. "He cares, massively," Ream said of his coach. "He cares massively about the players. He cares massively about the group, the entire staff. He cares beyond what anybody can even imagine."`,
+        `Ream added: "[Pochettino] understands, and has created this connection with each individual player by having these conversations, studying and looking at their body language. And just making sure that we're all in such a good place, mentally, physically, emotionally and this entire staff have created that that atmosphere."`,
+        `Then Belgium happened.`,
+        `Belgium played superbly that day and manager Rudi Garcia's tactics were sharp. There's also been plenty of speculation that the uproar over Balogun's postponed red-card suspension motivated Belgium and weighed on the Americans.`,
+        `On that second point: every player, staff member and executive in the U.S. camp that ESPN spoke with for this story — six people total — denied it played a role in the loss. But the eye test suggested otherwise.`,
+        `"You're preparing for [Ricardo] Pepi and then last second, literally, you've switched to go with Balogun. That's a big change for everybody," said one former MLS manager who asked not to be named. "Then you put all the controversy around it. It's impossible for human beings not to have been affected."`,
+        `What isn't in dispute: the team's body language was off from the start — passive, waiting for something to happen instead of making it happen. The U.S. lost its instinct to look for the forward pass.`,
+        `"It was the worst warmup I've ever seen. The whole thing looked off," said another source who was at the match. "No energy, no jump."`,
+        `That points to a mental and psychological weight on the team — one that will leave a scar on the players who went through it.`,
+        `<b>Overall final grade: C+</b>`,
+        `In the run-up to the World Cup, the question was always: what would success look like for the USMNT? The team's performance doesn't give a clean answer.`,
+        `For a stretch, the USMNT had the whole country's attention, and the sport benefits from that kind of six-week spotlight regardless of how it ends. There's no shame in a round-of-16 finish — by most reasonable expectations, the U.S. met them. Belgium was simply better on the night.`,
+        `Still, the way it ended stings. Compare it to the exits of the other two World Cup co-hosts: Mexico went down swinging, spending every last ounce of energy in its loss to England. Canada threw everything at Morocco, even if the 3-0 final score flattered the winners. What will linger about the U.S. exit is the image of the Americans standing in a midfield huddle afterward, wondering how it all went wrong.`,
+        `Now the USMNT starts over, looking for a way back up the ladder.`
       ],
       original: null
     },
@@ -115,31 +184,6 @@ window.SITE_DATA = {
     },
 
     {
-      id: "collina-defends-referee",
-      kicker: "ARGENTINA 3, EGYPT 2 · THE FALLOUT CONTINUES",
-      headline: "FIFA's referee chief Pierluigi Collina defends the World Cup official Egypt wanted sent home",
-      byline: "Original by ESPN News Services · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49312344/pierluigi-collina-defends-egypt-argentina-referee-calls-send-home-world-cup",
-      body: [
-        `FIFA's chief refereeing officer, Pierluigi Collina, has defended World Cup officials after Egypt claimed "serious" mistakes were made by the referee in its <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round-of-16</span> loss to Argentina.`,
-        `The Egyptian Football Association called for French referee François Letexier and his crew to be sent home, angered by key decisions in Tuesday's match, when Egypt conceded three late goals to lose 3-2 to the defending champion.`,
-        `Egypt coach Hossam Hassan appeared to suggest FIFA had shown favoritism toward Argentina, saying: "Perhaps they wanted to keep the world champion in the competition."`,
-        `That came soon after the controversy over FIFA's decision to suspend a one-game ban for U.S. striker Folarin Balogun after U.S. President Donald Trump intervened, complaining to FIFA president Gianni Infantino about Balogun's red card in the win over Bosnia-Herzegovina.`,
-        `In comments published on FIFA's website, Collina insisted his officials can't be influenced by anyone.`,
-        `"Of course, constructive discussion about decisions will always be part of football, but unfounded allegations have no place in our sport," he said.`,
-        `"Nobody can question the integrity of the FIFA World Cup match officials. When this happens, it may provoke reactions that lead to threats against them and their families. This is not right.`,
-        `"Equally, nobody can claim that FIFA refereeing can be influenced by anyone, not even by the FIFA president."`,
-        `Egypt was angered by key decisions late in Tuesday's match. With Egypt leading 1-0, it had a second goal disallowed after Marwan Attia was called for stepping on Lisandro Martínez's foot at the start of the play. Egypt did score a second goal nine minutes later.`,
-        `Then, in the buildup to Enzo Fernández's stoppage-time winner, Egypt argued Hamdi Fathy was pulled back by Alexis Mac Allister, and felt it should have gotten a penalty when Mohamed Salah went down under a challenge from Julián Álvarez before play continued the other way.`,
-        `Addressing the complaints, Collina said replays show Attia "clearly treads" on Martínez's foot, adding: "We believe that a foul is a foul. Regardless of whether the foul appears 'obvious,' if the referee did not see it on the field of play, the VAR can intervene.`,
-        `"Equally, if no foul is identified in the build-up to a goal, the VAR will advise the referee accordingly.`,
-        `"Stepping on an opponent's foot is a foul, whereas a defender who touches the ball first and then makes normal football contact has not committed a foul. Again, an example of this came at the end of the same game.`,
-        `"The referee and the VAR deemed it normal football contact between Egypt no. 10 Mohamed Salah and Argentina no. 10 Julian Alvarez."`
-      ],
-      original: null
-    },
-
-    {
       id: "courtois-belgium-spain",
       kicker: "BELGIUM VS. SPAIN · QUARTERFINAL PREVIEW",
       headline: "Thibaut Courtois says Belgium is the underdog against Spain — but he thinks it can pull off the upset",
@@ -182,35 +226,6 @@ window.SITE_DATA = {
         `"We've just got to be so focused, so aware of the runs he makes and where he is in the box. He can be so deadly.`,
         `"I know we've done well against Villa and Ezri is a great defender to come up against him but it takes a whole team effort to stop someone like that, stop their supply line and we've got to look at what they do as team, how they create chances and try and nullify him as best as possible.`,
         `"It is going to be difficult because not many people can."`
-      ],
-      original: null
-    },
-
-    {
-      id: "bouaddi-morocco-france",
-      kicker: "MOROCCO VS. FRANCE · QUARTERFINAL PREVIEW",
-      headline: "France could have had him. Instead, 18-year-old Ayyoub Bouaddi lines up against Les Bleus for Morocco",
-      byline: "Original by Julien Laurens, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49308168/after-rejecting-france-bouaddi-end-their-world-cup-morocco",
-      body: [
-        `In another life, Ayyoub Bouaddi would be wearing France's blue jersey in Thursday's World Cup quarterfinal in Boston, not Morocco's red. His coach would be France's Didier Deschamps, not Morocco's Mohamed Ouahbi. His midfield partner would be Adrien Rabiot, not Neïl El Aynaoui — another French-born player who could also have played for the other side. His captain could be Kylian Mbappé instead of Achraf Hakimi.`,
-        `To a lot of people in France, "losing" a talent like the 18-year-old midfielder to Morocco is a massive mistake.`,
-        `Bouaddi was born in Senlis, an hour north of Paris, and played for France at every youth level — he even captained France's under-21 team at 17. He wanted to play for the 2018 world champions, and turned Morocco down as recently as several months ago for the <span class="t" data-d="Africa's continental championship for national teams — the African version of the Euros, held every two years.">Africa Cup of Nations</span>, even after Morocco's previous coach, Walid Regragui, tried to talk him into picking the country his parents are from.`,
-        `Six months later, the prodigy didn't want to wait any longer for a shot at the sport's biggest stage. He didn't want to miss the 2026 World Cup.`,
-        `Deschamps could have called him up during the last international break in March — and earlier than that, too — and brought him to the U.S. with France. It never happened.`,
-        `Deschamps has watched him play plenty of times and knows exactly how talented he is — obviously, given how this World Cup has gone, Bouaddi has generational upside. Deschamps remembers him making his pro debut at 16 for Lille, and running the midfield against Real Madrid in the Champions League group stage on his 17th birthday in October 2024. Even so, Deschamps preferred N'Golo Kanté and Warren Zaïre-Emery as backup options behind his first-choice trio of Manu Koné, Rabiot and Aurélien Tchouaméni.`,
-        `"In midfield, we have a lot of talent already, and Didier doesn't want to block anyone," Deschamps' assistant, Guy Stephan, explained Monday when asked why Bouaddi wasn't with France. "Tchouaméni, Rabiot, Kanté, Zaïre-Emery, Koné. If I ask you which one you would take out [to put in Bouaddi], I am not sure I would have the same answer from all of you here."`,
-        `France's midfield really is deep and talented. But Kanté is 35 and hasn't played a single minute this tournament — he has plenty of experience and a 2018 World Cup winner's medal, but Bouaddi, talented as he is, could arguably have taken his spot instead.`,
-        `"[Bouaddi] has the freedom to choose which country he wants to play for," Deschamps said back in March. "I haven't spoken to him; this is not how I proceed. When I call up a player, it is because it is the right time or because I consider he can be useful for the France A team. Of course, we follow his performances. But obviously, there is strong competition in his position."`,
-        `Zinedine Zidane, who takes over as France's coach after the World Cup, called Bouaddi a few weeks ago — likely prompted by the French federation worrying about losing him — and was straight with him. According to ESPN sources, Zidane told Bouaddi he liked him but couldn't promise him anything.`,
-        `Morocco, unlike France, was certain: new coach Ouahbi guaranteed Bouaddi a spot at the 2026 World Cup, and that he'd even start games in the U.S. That was enough to make up his mind.`,
-        `So, like five other French-born teammates — including Issa Diop and El Aynaoui, who also came up through France's youth teams — Bouaddi faces his country of birth Thursday in what should be the best quarterfinal of the four.`,
-        `France's camp is looking forward to it: a rematch of the 2022 World Cup semifinal in Qatar, which France won 2-0. It's the toughest test France has faced yet in this tournament. Everyone else in its path has gone down either with style, like Sweden in the <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round of 32</span>, or through grit, like Paraguay in the <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round of 16</span>.`,
-        `Losing Tchouaméni to injury for this game — he should be back for a possible semifinal — is a real blow, but it's the only setback Deschamps and his staff have had all tournament. Otherwise, the coach has liked everything he's seen from his players.`,
-        `France's three main attackers — Mbappé, Ousmane Dembélé and Michael Olise — already have 20 combined goals and assists at this World Cup: seven goals and two assists for the captain, four goals and two assists for the <span class="t" data-d="soccer's award for the world's best player over a calendar year — like an MVP award, but for the whole sport, given out every year.">Ballon d'Or</span> holder, and five assists for the Bayern Munich winger. That matches what Ronaldo, Rivaldo and Ronaldinho combined for (15 goals, five assists) when Brazil won the 2002 World Cup — and France could still have three games left to play.`,
-        `The mood inside the France squad is good: fun, camaraderie, solidarity, hard work and respect. Deschamps losing his mother earlier in the tournament — he briefly flew home for it — brought the group closer together.`,
-        `These are also Deschamps' final days in charge of these players, 14 years after he took the job and eight years after winning the World Cup with them. Thursday could be the end of his reign, or it could continue a little longer. Only three games separate this team from another World Cup title.`,
-        `France has been the favorite since Day 1 and still is. Whether it's Bouaddi and Morocco on Thursday, or someone else down the road, whoever wants to stop France is going to have to be very good.`
       ],
       original: null
     },
