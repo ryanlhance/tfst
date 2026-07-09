@@ -4,7 +4,7 @@
 
 window.SITE_DATA = {
   updated: "July 9, 2026",
-  refreshedAt: "2026-07-09T11:46:00-04:00",
+  refreshedAt: "2026-07-09T16:20:00-04:00",
 
   articles: [
     {
@@ -25,6 +25,41 @@ window.SITE_DATA = {
           <li><b>Switzerland 0-0 Colombia (Switzerland win 4-3 on <span class="t" data-d="a shootout to decide a tied knockout game: five kicks each from the penalty spot, sudden death if it's still tied after that.">penalties</span>)</b> — The round of 16's last game was its quietest. 120 scoreless minutes in Vancouver, then Switzerland won a World Cup shootout for the first time ever to reach the quarterfinals for the first time since it hosted the tournament in 1954.</li>
           <li><b>Quarterfinals are set:</b> Morocco-France (Thursday, Foxborough, Mass.), Belgium-Spain (Friday, Inglewood, Calif.), England-Norway and Switzerland-Argentina (both Saturday, in Miami Gardens, Fla. and Kansas City, Mo., respectively).</li>
         </ul>`
+      ],
+      original: null
+    },
+
+    {
+      id: "haaland-pressure-england",
+      kicker: "ENGLAND VS. NORWAY · QUARTERFINAL PREVIEW",
+      headline: "Erling Haaland says Norway's title chances are 'really low' — and that all the pressure is on England",
+      byline: "Original by Shivam Pathak, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
+      body: [
+        `Norway striker Erling Haaland played down his team's World Cup chances Thursday while turning the spotlight onto England ahead of Saturday's quarterfinal in Miami.`,
+        `With seven goals in five games, Haaland has carried Norway to the <span class="t" data-d="the eight teams left after the round of 16 — win this and you're two games from the final.">quarterfinals</span> for the first time. Asked to size up his country's championship hopes, he said: "Really low, still."`,
+        `The Manchester City forward argued that England, as tournament favorites, should be the ones feeling the weight of expectation. "I think all of you should put every single pressure on the English lads," he said.`,
+        `Haaland pointed to the personal stakes of facing England, given he was born in Leeds and has spent his club career in the Premier League. "It's a special game, definitely," he said.`,
+        `Asked directly whether the pressure was all on England, Haaland didn't hesitate: "Yeah, definitely."`,
+        `It's the same low-key act he put on before Norway's group-stage finale against France, when he said he couldn't worry much about that game because France would "probably win the whole tournament."`,
+        `Norway then pulled off the tournament's biggest shock, knocking out five-time champion Brazil in the <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round of 16</span>, with Haaland scoring twice. "Playing against Brazil was kind of crazy for us Norwegians," he said.`,
+        `The winner advances to face either Argentina or Switzerland in the semifinal.`
+      ],
+      original: null
+    },
+
+    {
+      id: "quansah-suspended",
+      kicker: "ENGLAND VS. NORWAY · QUARTERFINAL FALLOUT",
+      headline: "England defender Jarell Quansah banned two games after red card vs. Mexico — will miss Norway quarterfinal",
+      byline: "Original by Tom Hamilton and James Olley, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red",
+      body: [
+        `Jarell Quansah will miss England's World Cup quarterfinal against Norway after picking up a two-game <span class="t" data-d="a ban from playing a set number of games — the penalty for a red card or an accumulation of yellow cards.">suspension</span> for the red card he got in the <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round-of-16</span> win over Mexico.`,
+        `The defender was sent off in the 54th minute of England's 3-2 win after a <span class="t" data-d="Video Assistant Referee — officials in a replay booth who can review and overturn calls on goals, penalties and red cards. Doesn't stop people from being furious about the outcome anyway.">VAR</span> review flagged a high tackle on Mexico defender Jesús Gallardo. England played the final 36 minutes with 10 men but still pulled off the win, setting up Saturday's match with Norway in Miami.`,
+        `The ban keeps Quansah out of both the quarterfinal and a potential semifinal if England advances. That's a real problem at right back: Reece James is already out with a hamstring injury from the Ghana game, and trained apart from the squad Wednesday as part of an individual recovery program.`,
+        `England coach Thomas Tuchel didn't hide his frustration with the ruling, questioning FIFA's consistency: "Where does this start and where does this end now? Can we overturn it or not overturn it?"`,
+        `Tuchel's comment referenced FIFA's decision to suspend the one-game ban given to USMNT striker Folarin Balogun, putting it on hold for 12 months, after U.S. President Donald Trump got involved.`
       ],
       original: null
     },
@@ -141,49 +176,6 @@ window.SITE_DATA = {
     },
 
     {
-      id: "brahim-diaz-redemption",
-      kicker: "MOROCCO VS. FRANCE · QUARTERFINAL PREVIEW",
-      headline: "Could AFCON final villain Brahim Díaz complete a redemption arc for Morocco against Kylian Mbappé's France?",
-      byline: "Original by Ed Dove, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49312108/could-afcon-final-villain-brahim-diaz-complete-redemption-arc-france-kylian-mbappe",
-      body: [
-        `Has there ever been a player whose entire international career was in danger of being defined by one kick the way Brahim Díaz's was?`,
-        `After a brilliant <span class="t" data-d="Africa's continental championship for national teams — the African version of the Euros, held every two years.">Africa Cup of Nations</span> on home soil earlier this year — in which he was the tournament's best player, scoring five goals — Díaz stepped up to take the decisive penalty deep into stoppage time of the final, after Senegal's players had finally been brought back out to resume the match.`,
-        `He'd won the penalty by getting hauled down by El Hadji Malick Diouf, and had gotten it awarded by whipping up the crowd in Rabat to pressure referee Jean-Jacques Ndala into checking <span class="t" data-d="Video Assistant Referee — officials in a replay booth who can review and overturn calls on goals, penalties and red cards. Doesn't stop people from being furious about the outcome anyway.">VAR</span> — the Congolese official had little choice with the stadium in an uproar.`,
-        `But when it was finally his turn to take it, after a 10-minute delay with Senegalese fans still scuffling with Moroccan riot police on the far side of the field, he inexplicably chose the softest possible <span class="t" data-d="a delicately chipped penalty kick straight down the middle instead of to a corner — stylish when it works, mortifying when the goalkeeper just stands there and catches it.">Panenka</span>, gently lifting the ball into Édouard Mendy's waiting hands.`,
-        `Rabat went silent. Díaz fell apart and was subbed off. Senegal scored the extra-time winner, and Morocco's dream was over.`,
-        `Criticism of the Spain-born forward followed fast, and disappointment quickly curdled into something uglier. The Uber driver who drove this writer to the airport the next day said he never wanted to see the Real Madrid forward wear Morocco's jersey again.`,
-        `The fact that Díaz was born and raised in Spain, played for Spain at the youth level, and only committed his future to Morocco in 2024 gave the criticism extra venom, and made him an easy scapegoat. No country has integrated diaspora-born players into its national team as well as Morocco has — but this was the flip side of that.`,
-        `One missed penalty overshadowed a month of brilliance at the Africa Cup of Nations, and threatened to poison his entire international career.`,
-        `But soccer, as always, has a way of offering redemption.`,
-        `Heading into Thursday's quarterfinal against France, Díaz is quietly having one of the best individual tournaments of any attacking player at this World Cup.`,
-        `Everyone's talking about the Golden Boot race — Messi, Haaland, Kane, Mbappé — but Díaz has four assists in five games, second only to France's Michael Olise, and has become the key creative piece for a Morocco team that's reached the quarterfinals for the second straight World Cup.`,
-        `Unlike Achraf Hakimi's swashbuckling play down the right flank, Yassine Bounou's spectacular saves, or Ismael Saibari's goals, Díaz's impact has stayed strangely under the radar. Maybe that's exactly what he needed.`,
-        `Even during his brilliant run at the Africa Cup of Nations, Díaz stayed humble and relaxed — maybe not used to being the center of attention after spending much of his career as a fringe player at Manchester City, then a squad player at Real Madrid, usually letting Los Blancos' superstars soak up the spotlight.`,
-        `"I want another assist [against France], but the most important is not about the individual, it's not about me," he told journalists on Wednesday. "It's about the team. I don't mind if someone else scores or gets the assist, what I want is to win."`,
-        `That humility has become a hallmark of this Morocco team, which has started winning neutrals back over after taking criticism during the later stages of the Africa Cup of Nations.`,
-        `Díaz wasn't part of the Morocco team that reached the semifinals in Qatar, and has never really known what it's like to be considered an underdog. Instead, he's become central to what this next version of the national team looks like — and it's fitting that he's playing a more creative role under Mohamed Ouahbi than he did under previous coach Walid Regragui.`,
-        `Modern Morocco is a global team, and Díaz — like Hakimi — was born in Spain before coming up through elite European academies. He's been polished at some of the world's biggest clubs — Manchester City, Real Madrid, AC Milan — and both technically and tactically, he can help make Ouahbi's vision real and let Morocco impose itself on the world's best teams instead of just reacting to them.`,
-        `That mix has turned Morocco into one of the most technically sophisticated teams at this World Cup, and Díaz and his teammates now get to prove it against tournament favorite France — and a few familiar faces.`,
-        `For the 26-year-old, facing France means a reunion with Real Madrid teammates Aurélien Tchouaméni and Kylian Mbappé, with all eyes on the latter to carry France to another World Cup semifinal.`,
-        `"They are my teammates at Real Madrid. Brilliant players, brilliant people, but tomorrow we're rivals," he continued. "Everyone wants to win and that's the most important. We'll wish each other luck, but tomorrow we're rivals."`,
-        `Díaz versus Mbappé is another compelling subplot in a fascinating matchup.`,
-        `For a couple of years, Díaz has lived in Mbappé's shadow at Real Madrid. They're not direct positional rivals, but between the headlines and the marketing campaigns that follow one of soccer's biggest superstars, Díaz has comparatively been one of the squad's lower-profile names.`,
-        `He's never started 18 league games in a single season for Real Madrid — and that number has gone down each of the last three seasons — and it's unclear what role he'll play at the club now that José Mourinho has arrived.`,
-        `On Thursday, he has a chance to outshine Mbappé — not necessarily by scoring or grabbing headlines, but by keeping doing what's worked all tournament: getting the best out of the players around him.`,
-        `Beyond his four assists, his smart movement between the lines has caused problems for defenses, and his comfort receiving the ball under pressure has helped Morocco stay calm and push forward. His decision-making has been excellent — his assists in the first two matches helped set the tone for strong Moroccan performances. These moments might not go viral, but they help win knockout games.`,
-        `"What matters most is not the assists or the goals," Díaz continued. "It's always good to contribute, but what matters most is the team.`,
-        `"If this helps my team win, then I'm really happy. I always take on the responsibility, I like to face the pressure."`,
-        `And after the Africa Cup of Nations final, he knows a thing or two about facing pressure.`,
-        `Slowly, with every clever pass and perfectly weighted through-ball, Díaz is drowning out the noise from that disastrous Panenka. Maybe most importantly, he didn't retreat from the criticism — he kept stepping forward, determined to keep helping Morocco grow.`,
-        `"I dreamed of playing in the World Cup. This is a dream come true, representing Morocco and giving everything for your country," he concluded. "My advice [to youngsters in Morocco] is to never stop believing you can fulfil your dreams. Look at me, here I am in a World Cup quarterfinal."`,
-        `Now comes the biggest test yet: France is the favorite, Morocco is the clear underdog. If Morocco is going to get back to the World Cup semifinals, it may need the player who rose from the lowest point any Moroccan player has experienced to carry it there.`,
-        `It would be one of international soccer's most compelling redemption arcs — just don't ask him to take a penalty.`
-      ],
-      original: null
-    },
-
-    {
       id: "courtois-belgium-spain",
       kicker: "BELGIUM VS. SPAIN · QUARTERFINAL PREVIEW",
       headline: "Thibaut Courtois says Belgium is the underdog against Spain — but he thinks it can pull off the upset",
@@ -201,31 +193,6 @@ window.SITE_DATA = {
         `That collective toughness has shown up throughout Belgium's run through the knockout rounds. Belgium erased a late 2-0 deficit to beat Senegal 3-2 in regulation, then blew out the United States — a match that was preceded by controversy when FIFA cleared American forward Folarin Balogun to play despite what should have been an automatic red-card suspension.`,
         `"Especially the match against Senegal showed our ability to keep believing until the end. The important thing is to win games. It's a nice thing to also play well, but the most important thing is to win and to compete, and that's what we did," Courtois added.`,
         `The winner of Friday's match advances to the semifinals to face either France or Morocco.`
-      ],
-      original: null
-    },
-
-    {
-      id: "rogers-haaland-threat",
-      kicker: "ENGLAND VS. NORWAY · QUARTERFINAL PREVIEW",
-      headline: "Morgan Rogers: 'Has anyone ever stopped Erling Haaland?' England hasn't figured it out yet either",
-      byline: "Original by James Olley, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49309137/england-vs-norway-world-cup-quarter-final-morgan-rogers-erling-haaland",
-      body: [
-        `KANSAS CITY — Morgan Rogers said Erling Haaland might be "unstoppable," but believes cutting off the Norway striker's <span class="t" data-d="the passes and service that get the ball to a forward — cut the supply line, and the finisher has nothing to work with.">supply line</span> is the key to England keeping its World Cup dream alive.`,
-        `Manchester City forward Haaland has scored seven goals in Norway's run to the quarterfinals, where it faces England in Miami on Saturday.`,
-        `It continued the 25-year-old's big season at the club level, where he won the Premier League's <span class="t" data-d="the award for the top scorer in a given league or tournament — this is the Premier League's version, separate from the World Cup's Golden Boot.">Golden Boot</span> for the third time in four seasons, finishing with 27 goals in 35 appearances.`,
-        `Norway pulled off an upset by knocking out five-time World Cup champion Brazil in the previous round, but Rogers said he wasn't surprised given Haaland's form.`,
-        `"They have one of the best strikers in the world and when he's on the pitch, anything can happen," the Aston Villa midfielder said.`,
-        `"You can never be surprised if Erling scores two goals and they win a game. He's done it how many times over the course of his career. He keeps doing it."`,
-        `Asked how England could stop Haaland, Rogers continued: "Has anyone ever stopped Erling Haaland? I'm not sure they have but we are going to have to try. I think he's such an unbelievable player, the things he does, the numbers he puts up, you're just in awe of how good he is and the level he's at.`,
-        `"But also, it's not just him. They've got other good players as well that we play against regularly in the Premier League that we need to be mindful of.`,
-        `"They're a really good team. I think that's what their biggest super strength is, that as a team, as a unit, they're so strong."`,
-        `Rogers — and teammate Ezri Konsa — were part of an Aston Villa team that beat Manchester City in three of their last meetings, games in which Haaland didn't score.`,
-        `"We've done well in those games against City but every game is different and he can just turn it on with a click of his fingers," Rogers said.`,
-        `"We've just got to be so focused, so aware of the runs he makes and where he is in the box. He can be so deadly.`,
-        `"I know we've done well against Villa and Ezri is a great defender to come up against him but it takes a whole team effort to stop someone like that, stop their supply line and we've got to look at what they do as team, how they create chances and try and nullify him as best as possible.`,
-        `"It is going to be difficult because not many people can."`
       ],
       original: null
     },
