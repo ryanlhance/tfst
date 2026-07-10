@@ -3,8 +3,8 @@
 // <span class="t" data-d="..."> marks a soccer-speak term — tap to decode.
 
 window.SITE_DATA = {
-  updated: "July 9, 2026",
-  refreshedAt: "2026-07-09T16:20:00-04:00",
+  updated: "July 10, 2026",
+  refreshedAt: "2026-07-10T14:30:00-04:00",
 
   articles: [
     {
@@ -23,8 +23,27 @@ window.SITE_DATA = {
           <li><b>Belgium 4, USA 1</b> — The third and final co-host is out too. Belgium ran through the U.S. defense Monday night in Seattle; Christian Pulisic left hurt and won't play again this tournament. All three World Cup hosts are now eliminated from their own tournament.</li>
           <li><b>Argentina 3, Egypt 2</b> — One of the games of the tournament. Egypt led 2-0 with 11 minutes left in Atlanta, but Messi set up one goal, buried the equalizer himself, and Enzo Fernández headed in the stoppage-time winner. Egypt's coach was livid afterward, accusing officials of tilting the game toward Messi and Argentina.</li>
           <li><b>Switzerland 0-0 Colombia (Switzerland win 4-3 on <span class="t" data-d="a shootout to decide a tied knockout game: five kicks each from the penalty spot, sudden death if it's still tied after that.">penalties</span>)</b> — The round of 16's last game was its quietest. 120 scoreless minutes in Vancouver, then Switzerland won a World Cup shootout for the first time ever to reach the quarterfinals for the first time since it hosted the tournament in 1954.</li>
-          <li><b>Quarterfinals are set:</b> Morocco-France (Thursday, Foxborough, Mass.), Belgium-Spain (Friday, Inglewood, Calif.), England-Norway and Switzerland-Argentina (both Saturday, in Miami Gardens, Fla. and Kansas City, Mo., respectively).</li>
+          <li><b>France 2, Morocco 0</b> — The quarterfinals kicked off Thursday in Foxborough, Mass. Kylian Mbappé missed a penalty, then scored anyway; France is through to a third straight World Cup semifinal.</li>
+          <li><b>Remaining quarterfinals:</b> Belgium-Spain (Friday, Inglewood, Calif.), England-Norway and Switzerland-Argentina (both Saturday, in Miami Gardens, Fla. and Kansas City, Mo., respectively).</li>
         </ul>`
+      ],
+      original: null
+    },
+
+    {
+      id: "france-morocco-recap",
+      kicker: "FRANCE 2, MOROCCO 0 · QUARTERFINAL RECAP",
+      headline: "Mbappé missed a penalty, then scored anyway — France reaches a third straight World Cup semifinal",
+      byline: "Compiled from ESPN reporting by Rob Dawson and Julien Laurens · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49317185/mbappe-guides-france-morocco-world-cup-semifinals",
+      body: [
+        `Kylian Mbappé missed a first-half <span class="t" data-d="a free shot from 12 yards, just the shooter against the goalkeeper — awarded for fouls or handballs inside the box.">penalty</span>, then scored anyway. France beat Morocco 2-0 Thursday in Foxborough, Massachusetts, to reach the World Cup semifinals for a third straight tournament.`,
+        `Morocco goalkeeper Yassine Bounou kept the game scoreless through halftime almost single-handedly. He saved a header from Dayot Upamecano early on, then guessed right to stop Mbappé's penalty in the 28th minute after Noussair Mazraoui hauled Mbappé down in the box. No goalkeeper has more World Cup penalty saves, including shootouts, than Bounou's four — and he wasn't done there, also stopping a low shot from Désiré Doué and tipping a 35-yard effort from Lucas Digne onto the <span class="t" data-d="the horizontal bar across the top of the goal, connecting the two posts. Hit it and the ball doesn't count, no matter how close.">crossbar</span>.`,
+        `Mbappé was held up by a <span class="t" data-d="Video Assistant Referee — officials in a replay booth who can review and overturn calls on goals, penalties and red cards. Doesn't stop people from being furious about the outcome anyway.">VAR</span> review for more than three minutes before he was finally allowed to take the penalty — and after Bounou saved it, he complained to officials about the delay during the <span class="t" data-d="a scheduled pause for players to grab fluids in the heat, usually once a half — FIFA's added a bunch of them at this World Cup because of the summer temperatures in host cities.">hydration break</span> that followed. France coach Didier Deschamps agreed it was a factor: "I fully agree with Haaland," he said, referencing a social media post from Norway's Erling Haaland calling the wait "too long." "I believe there was a VAR review and then a second review which took two minutes. I'm not sure what happened. It took a while and Kylian was ready to shoot. I don't want to find excuses, but it wasn't an easy situation."`,
+        `Mbappé made up for it fast. In the 60th minute, he curled a shot into the far corner for his eighth goal of the tournament — tying Lionel Messi atop the <span class="t" data-d="the award for the tournament's leading goal scorer.">Golden Boot</span> race — and his 20th for his World Cup career, one behind Messi's all-time record of 21. Six minutes later, Ousmane Dembélé doubled the lead, calmly finishing from the edge of the box off a pass from Mbappé, his third assist of the tournament.`,
+        `Mbappé didn't finish the game. He spent a few moments on the ground near midfield before coming off in the 77th minute for Jean-Philippe Mateta — walking off under his own power and applauding the crowd on the way out. He downplayed it afterward: "I'm all good. I got a knock on the ankle, but it's all good. JP [Mateta] was more able than me to play the last 15 minutes."`,
+        `Mbappé was also asked about facing Morocco captain Achraf Hakimi, his close friend and former Paris Saint-Germain teammate: "Here, there is no sentiment. There are no emotions. I'm here to win and he [Hakimi] was here to win too," he said. "But it's true that when I will go to see him in the dressing room, it will hit me, because he is a very close friend."`,
+        `France is now only the third nation ever to reach three straight World Cup semifinals. It'll face the winner of Friday's Belgium-Spain quarterfinal on Tuesday in Dallas. "I'm extremely proud to be here for a third time in a row," Deschamps said. "We're not in the final yet. We have another game and it will be tough. Anyone in the semifinal is part of the four best teams in the world. The goal is to go to the final but step by step. We are on a mission for this shirt and everyone who wants us to win."`
       ],
       original: null
     },
@@ -129,48 +148,6 @@ window.SITE_DATA = {
         `For a stretch, the USMNT had the whole country's attention, and the sport benefits from that kind of six-week spotlight regardless of how it ends. There's no shame in a round-of-16 finish — by most reasonable expectations, the U.S. met them. Belgium was simply better on the night.`,
         `Still, the way it ended stings. Compare it to the exits of the other two World Cup co-hosts: Mexico went down swinging, spending every last ounce of energy in its loss to England. Canada threw everything at Morocco, even if the 3-0 final score flattered the winners. What will linger about the U.S. exit is the image of the Americans standing in a midfield huddle afterward, wondering how it all went wrong.`,
         `Now the USMNT starts over, looking for a way back up the ladder.`
-      ],
-      original: null
-    },
-
-    {
-      id: "morocco-evolution",
-      kicker: "MOROCCO VS. FRANCE · QUARTERFINAL PREVIEW",
-      headline: "Morocco's tactical evolution is changing the whole dynamic of its World Cup rematch with France",
-      byline: "Original by Ed Dove, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49312395/morocco-evolution-transforms-dynamic-france-world-cup-rematch",
-      body: [
-        `The clearest sign of Morocco's growth at this World Cup didn't happen on the field.`,
-        `It wasn't the go-ahead goal against Brazil, the second-half improvement that knocked out Canada, or Yassine Bounou's incredible save to deny Crysencio Summerville in the penalty shootout win over the Netherlands.`,
-        `It was when Dutch coach Ronald Koeman sent his team out for that <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round-of-32</span> game in Monterrey. The Netherlands is a country as steeped in soccer tradition as any other, with a proud style and identity on the field — from Johan Cruyff and Rinus Michels and the 1974 finalists on down through the great Dutch teams since. The Dutch believe there's a right way to play: technical excellence, collective intelligence and attacking intent. Whether lining up in the usual 4-3-3 or some variation of it, the Netherlands wants to <span class="t" data-d="which team has the ball and is controlling the game — tracked continuously, not just when a team is 'on offense.'">control possession</span>, press with purpose, swap positions, and impose its will rather than react to the other side.`,
-        `But facing a Morocco team that hadn't blown anyone away consistently up to that point, Koeman abandoned all of that. He pulled a midfielder, added an extra defender, and let the Dutch become the reactive side — trying to read what Morocco would do and shut it down, instead of playing their own game.`,
-        `To be fair, it almost worked — the Dutch were only eliminated on penalties after a defensive masterclass from Bounou — but the Netherlands had barely 30% of the ball. Morocco completely dominated the game in terms of control and dictating terms.`,
-        `The Netherlands held on. Achraf Hakimi hit the post twice for Morocco, goalkeeper Bart Verbruggen made several remarkable saves, and on a different day the Moroccans would have won comfortably, no shootout needed.`,
-        `"If that goal hadn't gone in — the 1-1 in stoppage time — I'd be getting the praise, and now I'm being pretty much torn to shreds for picking five defenders," Koeman said after the match. This isn't the first time it's happened to an increasingly respected Morocco team, and it won't be the last.`,
-        `At the <span class="t" data-d="Africa's continental championship for national teams — the African version of the Euros, held every two years.">Africa Cup of Nations</span>, Morocco controlled the ball and imposed itself on opponents the same way. At this World Cup, it did the same against Scotland and Haiti. But the Netherlands — given its pedigree, its soccer history and its current FIFA ranking — represented a new level entirely for Morocco.`,
-        `In fact, the game may have been unprecedented. Has an African team ever controlled over 70% of possession against genuine soccer royalty at a World Cup before?`,
-        `This wasn't a vintage Netherlands team either, but midfielders Ryan Gravenberch (Liverpool), Tijjani Reijnders (Manchester City) and Frenkie de Jong (Barcelona) play for some of Europe's biggest clubs and should have had enough quality to go toe-to-toe with Morocco technically and tactically in a World Cup knockout game.`,
-        `Koeman's fear of what coach Mohamed Ouahbi has built in Morocco — despite shaky moments against Haiti and a failure to add a second goal against Scotland — was the clearest evidence yet of how far the team has come. It also vindicated the Moroccan federation's risky call to part ways with Walid Regragui after the Africa Cup of Nations and replace him with Ouahbi, whose coaching career up to that point had mostly been in youth soccer.`,
-        `It was a gamble. But Morocco bet that it could develop its own coach who could get the most out of this talented group, tap into the pipeline of players coming out of the country's Mohammed VI Academy, and turn Morocco into a team that dictates games instead of just reacting to them.`,
-        `That's why Thursday's quarterfinal against France in Boston — a rematch of the semifinal from four years ago in Qatar — feels so different from that famous game in Al Khor.`,
-        `During that run to the semifinals in Qatar, Morocco was built on defense without the ball: excellent organization, discipline, team unity and explosive counterattacks. Belgium, Spain and Portugal were all knocked out before Morocco's run finally ended against France. But the blueprint was obvious to everyone watching.`,
-        `Morocco was pragmatic back then, even though players like Sofiane Boufal and Hakim Ziyech gave that team more individual flair and creativity than the current group has. In the few months since the Africa Cup of Nations, Ouahbi has overseen an evolution that has Morocco arriving at this World Cup's quarterfinals in a completely different form than it would have been under Regragui.`,
-        `At the Africa Cup of Nations under the previous coach, Morocco already had plenty of the ball — but the way it used that possession has changed too. Back then, there was a lot of side-to-side passing, fullbacks pushed high, and Morocco tried to pick apart deep-lying defenses. This World Cup, Ouahbi's tweaks have made Morocco more aggressive and threatening. Azzedine Ounahi is key to that — he's been moved into a more advanced, central attacking role with license to roam and drag defenders out of position, instead of a fixed job in a 4-3-3 or 4-2-3-1.`,
-        `With Brahim Díaz also given freedom to drift inside, and Ismael Saibari — who never really found his footing under Regragui — thriving as a <span class="t" data-d="a forward who drops deep from the front line to link up play instead of staying pinned as the target man.">false nine</span>, there's a lot of movement in the final third, with Morocco overloading central areas and staying unpredictable going forward.`,
-        `The arrival of the composed, smart, technically sharp Ayyoub Bouaddi has given Morocco an elite deep-lying creative option who can break pressure, change the pace of a move and win midfield battles.`,
-        `That means Morocco doesn't need a pure defensive midfielder like Sofyan Amrabat in there to slow things down, and it frees Ounahi from deeper playmaking duties.`,
-        `The tempo has picked up too. Morocco is playing faster vertical combinations, moving through the gears more quickly, taking more risks, and turning the ball back and resetting less often.`,
-        `It worked against Brazil, to a point. It worked against a cautious Netherlands. And it's carried Morocco this far.`,
-        `France isn't going to adapt the way Koeman tried to, and Morocco isn't showing any signs of changing its approach just because of who's across from it.`,
-        `"We have a clear idea on how we want to play," Ouahbi told journalists on Wednesday. "This is how we have come this far, and how we'll go even further.`,
-        `"It's important that our approach remains the same; the way we perform, prepare and analyse, whether we play a quarterfinal against France or a friendly against Burundi. The Morocco side is evolving completely - as is France - and both teams are even better [than they were in 2022]. It's normal, because these are two federations, two countries, that work very well.`,
-        `"We're not surprised to see France's level has improved with regards to four years ago, but so did we."`,
-        `Despite the confidence, Ouahbi has to admit Morocco is a wounded team heading into this quarterfinal — and that's before factoring in the exhausting travel it has had to do all tournament. Morocco will be without Nayef Aguerd and Abde Ezzalzouli, both cut from the squad at the last minute after failing to get healthy in time, while top scorer Saibari, with three goals, still hasn't recovered from a hamstring injury.`,
-        `That robs everyone of seeing this "revenge" game played with both sides at full strength, though Ouahbi isn't letting the injuries dampen Morocco's new ambition.`,
-        `"[It's not as though] what we've done up to now is great and the rest is a bonus, no," he said. "The bonus, the only bonus, is to win the World Cup.`,
-        `"This won't be the same as 2022; we have a different team, we're facing a different France team than four years ago.`,
-        `"We'll be confident with regards to what we've shown up to now, confident that we can show good things and win this match."`,
-        `Morocco's evolution has carried it back to the World Cup's final stages, and back to France — but this time, the team wants to prove it belongs as an equal, not an underdog.`
       ],
       original: null
     },
