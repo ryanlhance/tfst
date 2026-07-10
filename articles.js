@@ -4,7 +4,7 @@
 
 window.SITE_DATA = {
   updated: "July 10, 2026",
-  refreshedAt: "2026-07-10T14:30:00-04:00",
+  refreshedAt: "2026-07-10T04:00:00-04:00",
 
   articles: [
     {
@@ -49,107 +49,73 @@ window.SITE_DATA = {
     },
 
     {
-      id: "haaland-pressure-england",
-      kicker: "ENGLAND VS. NORWAY · QUARTERFINAL PREVIEW",
-      headline: "Erling Haaland says Norway's title chances are 'really low' — and that all the pressure is on England",
-      byline: "Original by Shivam Pathak, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
-      body: [
-        `Norway striker Erling Haaland played down his team's World Cup chances Thursday while turning the spotlight onto England ahead of Saturday's quarterfinal in Miami.`,
-        `With seven goals in five games, Haaland has carried Norway to the <span class="t" data-d="the eight teams left after the round of 16 — win this and you're two games from the final.">quarterfinals</span> for the first time. Asked to size up his country's championship hopes, he said: "Really low, still."`,
-        `The Manchester City forward argued that England, as tournament favorites, should be the ones feeling the weight of expectation. "I think all of you should put every single pressure on the English lads," he said.`,
-        `Haaland pointed to the personal stakes of facing England, given he was born in Leeds and has spent his club career in the Premier League. "It's a special game, definitely," he said.`,
-        `Asked directly whether the pressure was all on England, Haaland didn't hesitate: "Yeah, definitely."`,
-        `It's the same low-key act he put on before Norway's group-stage finale against France, when he said he couldn't worry much about that game because France would "probably win the whole tournament."`,
-        `Norway then pulled off the tournament's biggest shock, knocking out five-time champion Brazil in the <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round of 16</span>, with Haaland scoring twice. "Playing against Brazil was kind of crazy for us Norwegians," he said.`,
-        `The winner advances to face either Argentina or Switzerland in the semifinal.`
-      ],
-      original: null
-    },
-
-    {
-      id: "quansah-suspended",
-      kicker: "ENGLAND VS. NORWAY · QUARTERFINAL FALLOUT",
-      headline: "England defender Jarell Quansah banned two games after red card vs. Mexico — will miss Norway quarterfinal",
-      byline: "Original by Tom Hamilton and James Olley, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49315827/england-jarell-quansah-suspended-two-world-cup-matches-mexico-red",
-      body: [
-        `Jarell Quansah will miss England's World Cup quarterfinal against Norway after picking up a two-game <span class="t" data-d="a ban from playing a set number of games — the penalty for a red card or an accumulation of yellow cards.">suspension</span> for the red card he got in the <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round-of-16</span> win over Mexico.`,
-        `The defender was sent off in the 54th minute of England's 3-2 win after a <span class="t" data-d="Video Assistant Referee — officials in a replay booth who can review and overturn calls on goals, penalties and red cards. Doesn't stop people from being furious about the outcome anyway.">VAR</span> review flagged a high tackle on Mexico defender Jesús Gallardo. England played the final 36 minutes with 10 men but still pulled off the win, setting up Saturday's match with Norway in Miami.`,
-        `The ban keeps Quansah out of both the quarterfinal and a potential semifinal if England advances. That's a real problem at right back: Reece James is already out with a hamstring injury from the Ghana game, and trained apart from the squad Wednesday as part of an individual recovery program.`,
-        `England coach Thomas Tuchel didn't hide his frustration with the ruling, questioning FIFA's consistency: "Where does this start and where does this end now? Can we overturn it or not overturn it?"`,
-        `Tuchel's comment referenced FIFA's decision to suspend the one-game ban given to USMNT striker Folarin Balogun, putting it on hold for 12 months, after U.S. President Donald Trump got involved.`
-      ],
-      original: null
-    },
-
-    {
-      id: "pulisic-microfracture",
-      kicker: "BELGIUM 4, USA 1 · THE FALLOUT",
-      headline: "Sources: Christian Pulisic's injury in the Belgium loss was a microfracture — he's out for weeks",
+      id: "lukaku-perfect-game",
+      kicker: "BELGIUM VS. SPAIN · QUARTERFINAL PREVIEW",
+      headline: "Romelu Lukaku: Belgium will need to 'play the perfect game' to beat Spain",
       byline: "Original by Jeff Carlisle, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49315041/usa-christian-pulisic-suffered-microfracture-belgium-sources",
+      link: "https://www.espn.com/soccer/story/_/id/49318578/romelu-lukaku-belgium-perfect-game-beat-spain",
       body: [
-        `Christian Pulisic's last game of the World Cup was worse than it looked. Sources confirmed to ESPN that the U.S. star and AC Milan forward suffered a bone bruise and a microfracture — a small crack in the bone — in his lower leg during the round-of-16 loss to Belgium, and he'll be out for several weeks. The Athletic first reported the injury.`,
-        `It happened seven minutes into the second half of the USMNT's 4-1 <span class="t" data-d="the round of 32 down to the round of 16 down to the quarterfinals — it's win-or-go-home from here, like March Madness.">round-of-16</span> loss, when Pulisic went to take a shot and instead caught the back of Belgian midfielder Youri Tielemans' leg.`,
-        `He tried to keep playing for a few minutes before Sebastian Berhalter replaced him in the 59th minute — right around the time a mistake by goalkeeper Matt Freese let Belgium's Hans Vanaken make it 3-0.`,
-        `"I just totally twisted my ankle and my knee in one play," Pulisic said after the match. "I mean, whatever. I have time to rest. It's just unfortunate way to finish."`,
-        `It capped a tournament full of injury trouble for Pulisic. He first hurt his calf in training two days before the USMNT's opener against Paraguay, then aggravated it during that game and had to come off at halftime.`,
-        `He sat out the following match against Australia, played just 32 minutes against Türkiye, then worked his way back to a full 88 minutes in the 2-0 <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round-of-32</span> win over Bosnia-Herzegovina.`,
-        `A source told ESPN that Pulisic is expected to miss four to six weeks, putting him back in training with AC Milan sometime in August — right as the club begins a new era under manager Rubén Amorim. Milan opens its season Aug. 23 against Torino.`
+        `Belgium forward Romelu Lukaku said his team will need to "play the perfect game" to get past Spain in Friday's World Cup quarterfinal in Inglewood, California.`,
+        `A win would put Belgium in the semifinals for the first time since 2018, when Lukaku was on the team that lost 1-0 to eventual champion France in Russia. It would also match Belgium's best-ever World Cup finish, set by the 1986 team that reached the semifinals in Mexico.`,
+        `But beating Spain will be no small task — Spain hasn't allowed a single goal all tournament — and it happens at SoFi Stadium, with the winner advancing to face France in the semifinal.`,
+        `"Tomorrow, we need to play the perfect game. If you want to proceed in the tournament, this is one of the crucial stages," Lukaku said at Thursday's news conference. "Spain is an excellent team. They've been playing the same type of football since 2008; very recognizable.`,
+        `"They are looking for the third man. They have speed on the sides. Ferran Torres provides depth, but we are well prepared, and we also have certain assets which will make life difficult for them. And that's of course the challenge."`,
+        `Lukaku has enjoyed something of a renaissance at this World Cup. He recalled that back in April, Belgium coach Rudi Garcia told him he'd have a different role this tournament — an <span class="t" data-d="a substitute brought on specifically to change the game, rather than a starter — the opposite of a guy just getting rest minutes.">impact substitute</span>.`,
+        `It's proved to be a smart move. Lukaku has scored three goals at this World Cup, including the one that sparked Belgium's comeback from two goals down to beat Senegal 3-2 in the <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round of 32</span>.`,
+        `"For me, it's never about the individual. It's about the team," Lukaku said. "That's been my motivation for the past couple of years and I've been quite successful I think because I think first of the team and then of myself."`,
+        `He added: "I have something from above helping me, helping the team. Everything that's going well for us. And we're going to continue it like this. The mindset's going very well. We're very well prepared physically, mentally, tactically, and we'll rise to the challenge."`,
+        `Garcia said Spain remains one of the best possession teams in the world, but he also credited Spain's defensive record — not allowing a single goal yet at this World Cup. Still, Garcia thinks Belgium can end that streak.`,
+        `"The statistics obviously are made to be shaken up and that's what we're hoping to do tomorrow," Garcia said. "We're going to do everything we can to score in the quarterfinal. We want to make it our own. Otherwise, we'll be sent packing. That's not what we want."`,
+        `Garcia pointed out that Belgium has the third-most goals of any team at this World Cup, and it's now up against the team with the tournament's best <span class="t" data-d="a stat estimating how many goals a team 'should' have scored based on the quality of the chances it created — a way of measuring danger, not just shots.">expected goals</span> number. But he seemed to relish being the underdog.`,
+        `"Everyone is already talking about us going home, but we think that we can do it," Garcia said. "We think we can build off it and we're going to do everything we can to get to the semis."`
       ],
-      original: null
+      original: [
+        `INGLEWOOD, Calif. -- Belgium forward Romelu Lukaku said the Red Devils will need to "play the perfect game" to get past Spain in Friday's World Cup quarterfinal.`,
+        `A win for Belgium would see them equal the mark of both the 1986 side that reached the semifinals in Mexico, as well as the 2018 team that did the same in Russia, where Lukaku played in a 1-0 loss to eventual champions France.`,
+        `But that will mean defeating Spain, who have yet to concede a goal in the tournament, at SoFi Stadium with the winner advancing to face France in the semifinals.`,
+        `"Tomorrow, we need to play the perfect game. If you want to proceed in the tournament, this is one of the crucial stages," Lukaku said at Thursday's news conference. "Spain is an excellent team. They've been playing the same type of football since 2008; very recognizable.`,
+        `"They are looking for the third man. They have speed on the sides. Ferran Torres provides depth, but we are well prepared, and we also have certain assets which will make life difficult for them. And that's of course the challenge."`,
+        `Lukaku has enjoyed something of a renaissance at this World Cup. He recalled how in April, Belgium manager Rudy Garcia said the longtime starter would be in a different role, that of an impact substitute.`,
+        `It has proved to be a master stroke. Lukaku has scored three goals in this World Cup, including the one that sparked the comeback from two goals down when Belgium beat Senegal 3-2 in the round of 32.`,
+        `"For me, it's never about the individual. It's about the team," Lukaku said. "That's been my motivation for the past couple of years and I've been quite successful I think because I think first of the team and then of myself."`,
+        `He added: "I have something from above helping me, helping the team. Everything that's going well for us. And we're going to continue it like this. The mindset's going very well. We're very well prepared physically, mentally, tactically, and we'll rise to the challenge."`,
+        `Garcia noted Spain remain one of the best possession teams in the world, but also took time to laud La Roja's defensive record of not conceding a single goal so far at the World Cup. Still, Garcia is confident Belgium can end that streak.`,
+        `"The statistics obviously are made to be shaken up and that's what we're hoping to do tomorrow," Garcia said. "We're going to do everything we can to score in the quarterfinal. We want to make it our own. Otherwise, we'll be sent packing. That's not what we want."`,
+        `Garcia noted that Belgium have the third-most goals in this World Cup and they are going up against the team with the most expected goals. But he seemed to be relishing Belgium's underdog status.`,
+        `"Everyone is already talking about us going home, but we think that we can do it," Garcia said. "We think we can build off it and we're going to do everything we can to get to the semis."`
+      ]
     },
 
     {
-      id: "usmnt-report-card",
-      kicker: "USMNT · WORLD CUP REPORT CARD",
-      headline: "Grading the USMNT's World Cup: Pochettino's team went from thrilling to deflated in a hurry",
+      id: "delafuente-unbothered",
+      kicker: "BELGIUM VS. SPAIN · QUARTERFINAL PREVIEW",
+      headline: "Spain coach Luis de la Fuente on the favorite tag: 'The favoritism doesn't guarantee anything'",
       byline: "Original by Jeff Carlisle, ESPN · Translated",
-      link: "https://www.espn.com/soccer/story/_/id/49314124/usa-world-cup-report-card-grades-mauricio-pochettino-christian-pulisic-analysis",
+      link: "https://www.espn.com/soccer/story/_/id/49318480/luis-de-la-fuente-unbothered-spain-world-cup-favorites-tag",
       body: [
-        `The U.S. men's national team's run through this World Cup is enough to give you whiplash. It started about as well as it could have, with a 4-1 blowout of Paraguay. Solid wins over Australia in the group stage, then Bosnia-Herzegovina in the round of 32, sandwiched a meaningless loss to Türkiye that came with coach Mauricio Pochettino making a pile of lineup changes.`,
-        `Then the bottom fell out in the round of 16: a 4-1 loss to Belgium as deflating as the Paraguay win had been exciting. It was as if the U.S. did all its homework, aced the quizzes, then bombed the final exam.`,
-        `So grading this team depends a lot on how much weight you put on that final result. Here's how the USMNT's World Cup report card reads.`,
-        `<b>Physicality: B+</b>`,
-        `By almost any measure, the USMNT was among the fittest teams at this World Cup through the round of 16 — with some caveats. The U.S. played in close-to-perfect weather, with two games apiece in the Los Angeles area and Seattle, and the roof at SoFi Stadium kept the sun off. The team also avoided any brutal weather or altitude the way some opponents didn't.`,
-        `Style plays into it too. Pochettino's team pressed hard and ran constantly, and FIFA's tracking data backs that up: the U.S. ranked fourth of 48 teams in average speed (6.23 km/h), and eighth both in distance covered per game (118,979 meters) and sprints per game (489.2).`,
-        `One team that ranked above the U.S. in all of those categories: Belgium. As athletic as this U.S. team was, it still lost the physical battle in midfield against players like Dodi Lukébakio and (before he got hurt) Amadou Onana. As one source who asked not to be named put it: "When better teams match or better your work rate, you're dead."`,
-        `Overall, the U.S. held its own athletically, including against physical teams like Australia and Bosnia — but Belgium showed there's still room to grow.`,
-        `<b>Tactical approach: B+</b>`,
-        `Pochettino's <span class="t" data-d="an aggressive tactic where the team without the ball chases immediately to win it back near the other team's goal, instead of dropping back to defend.">high-pressing</span> style has been his trademark for years, shaped by the influence of Marcelo Bielsa and Gerardo "Tata" Martino. It took a while for his ideas to sink in, but the players eventually bought in.`,
-        `There's not much to criticize about the personnel Pochettino picked to run it. There was some concern when he named his 26-man roster on May 26 that the team was light in midfield, but it never really became a problem.`,
-        `Up front, alongside the high press, there was an emphasis on wing play — which made sense given the team's strengths. Christian Pulisic remained the most talented attacking player on the roster, and pushing Sergiño Dest further forward was the right call given his limitations defensively.`,
-        `Defensively, Pochettino used Alex Freeman as a hybrid center back in possession and an outside back off the ball. Freeman added athleticism to the back line — he was one of the few U.S. players to come out of the Belgium game with credit — and it let Antonee Robinson get forward on the other flank.`,
-        `Pochettino's tactics did run into trouble against a more talented Belgium team, but the overall thinking behind them held up.`,
-        `<b>Tactical execution: C+</b>`,
-        `On the surface, it worked. The USMNT scored 11 goals, blowing past its previous World Cup record of seven, and its three wins were also a record. The approach felt quintessentially American: aggressive, front-footed, confident.`,
-        `Defensively, the U.S. allowed 10.15 <span class="t" data-d="passes per defensive action — a stat that counts how many passes the other team strings together before you tackle, intercept, or foul them. Lower means your press is working.">PPDA</span>, the sixth-best mark of the tournament — a sign the press was doing its job of winning the ball back fast. The first four games were genuinely impressive.`,
-        `"When you start the World Cup off on the front foot with energy to create some chances and get some goals, then that's big. That creates momentum," former USMNT manager Bob Bradley told ESPN. "That created tremendous excitement in the country in the World Cup where you're hosting."`,
-        `But it was papering over some cracks. Two of the goals were gifts from opponents' own defenders, and five more came from set pieces. After the Paraguay game, the U.S. managed just one goal from open play — Folarin Balogun's against Bosnia-Herzegovina.`,
-        `"With all of our good play, I still felt that our ability to create chances in open play and have different ways to get into the box and create chances was [a concern]," Bradley said. "And then ... there were moments [in friendlies] against Germany and Senegal where the connection defensively and the fact that in some moments guys tuned out or ball watched. And some of the situations that came up in those games still were concerns on what would happen when you played better teams down the line."`,
-        `Those concerns came true, and the numbers back it up. The Americans' <span class="t" data-d="a stat estimating how many goals a team 'should' have scored based on the quality of the chances it created — a way of measuring danger, not just shots.">expected goals</span> (xG) per game for the tournament was 1.2, tied for 23rd of 48 teams. Against Belgium specifically, sloppy defending let the Red Devils score twice in the first half.`,
-        `With Belgium often skipping past the U.S. midfield and playing direct to win the second ball, the American press lost its bite. The U.S. also lost more individual battles than it won, taking just 44.4% of first-half duels. Against an athletic Belgian team, there was no way back from there.`,
-        `The lesson: tactics matter, but only so much.`,
-        `<b>Psychological prep: C</b>`,
-        `This one splits into two phases: before Belgium, and everything after.`,
-        `Credit Pochettino first for building real team spirit — every player pulling the same direction. It showed in training, where players were smiling through sessions, and in the way the team closed out the Bosnia-Herzegovina game playing the last 35 minutes with 10 men to hold on for a 2-0 win.`,
-        `U.S. captain Tim Ream praised how Pochettino brought the group together. "He cares, massively," Ream said of his coach. "He cares massively about the players. He cares massively about the group, the entire staff. He cares beyond what anybody can even imagine."`,
-        `Ream added: "[Pochettino] understands, and has created this connection with each individual player by having these conversations, studying and looking at their body language. And just making sure that we're all in such a good place, mentally, physically, emotionally and this entire staff have created that that atmosphere."`,
-        `Then Belgium happened.`,
-        `Belgium played superbly that day and manager Rudi Garcia's tactics were sharp. There's also been plenty of speculation that the uproar over Balogun's postponed red-card suspension motivated Belgium and weighed on the Americans.`,
-        `On that second point: every player, staff member and executive in the U.S. camp that ESPN spoke with for this story — six people total — denied it played a role in the loss. But the eye test suggested otherwise.`,
-        `"You're preparing for [Ricardo] Pepi and then last second, literally, you've switched to go with Balogun. That's a big change for everybody," said one former MLS manager who asked not to be named. "Then you put all the controversy around it. It's impossible for human beings not to have been affected."`,
-        `What isn't in dispute: the team's body language was off from the start — passive, waiting for something to happen instead of making it happen. The U.S. lost its instinct to look for the forward pass.`,
-        `"It was the worst warmup I've ever seen. The whole thing looked off," said another source who was at the match. "No energy, no jump."`,
-        `That points to a mental and psychological weight on the team — one that will leave a scar on the players who went through it.`,
-        `<b>Overall final grade: C+</b>`,
-        `In the run-up to the World Cup, the question was always: what would success look like for the USMNT? The team's performance doesn't give a clean answer.`,
-        `For a stretch, the USMNT had the whole country's attention, and the sport benefits from that kind of six-week spotlight regardless of how it ends. There's no shame in a round-of-16 finish — by most reasonable expectations, the U.S. met them. Belgium was simply better on the night.`,
-        `Still, the way it ended stings. Compare it to the exits of the other two World Cup co-hosts: Mexico went down swinging, spending every last ounce of energy in its loss to England. Canada threw everything at Morocco, even if the 3-0 final score flattered the winners. What will linger about the U.S. exit is the image of the Americans standing in a midfield huddle afterward, wondering how it all went wrong.`,
-        `Now the USMNT starts over, looking for a way back up the ladder.`
+        `Spain coach Luis de la Fuente said he doesn't "have any fear about being the favorite" as he prepares his team for Friday's World Cup quarterfinal against Belgium in Inglewood, California.`,
+        `Spain is hoping to reach the semifinals for the first time since it won the World Cup back in 2010. Its defense has been airtight — Spain hasn't allowed a goal in five games so far — which has made it the favorite over Belgium. De la Fuente said that tag doesn't bother him.`,
+        `"I don't have any fear about being the favorite or not. The favoritism doesn't guarantee anything," he said at Thursday's press conference.`,
+        `"What I can tell you is that we've done the work. We've prepared. We are ready for these kinds of games where, by the way, there are no favorites."`,
+        `De la Fuente added that regardless of people's opinions, he's expecting a tough game Friday.`,
+        `"Ultimately whoever's considered the favorite is just something of a matter of opinion," De la Fuente said.`,
+        `"We have to think about our own game and we have to know that tomorrow the game will be tough. It'll be difficult. We have to be our best to be victorious."`,
+        `De la Fuente said every player is fit to play and, given the team's preparation, he's relaxed heading into the game.`,
+        `"Let's be clear. It's one thing to be nervous, another thing to be anxious, and yet another is to be excited," he said.`,
+        `"We've all been in sports. We all get butterflies in our tummy so to speak. But this is something that we can control. I'm not overcome by it. And calm is power. If you are at ease, you can think clearly. You can be very clear about things. And I have to be clear that I'm very calm. I am usually calm in these moments."`
       ],
-      original: null
+      original: [
+        `INGLEWOOD, Calif. -- Spain national team manager Luis de la Fuente said he doesn't "have any fear about being the favorite" as he prepares his side for Friday's 2026 World Cup quarterfinal against Belgium.`,
+        `Spain are hoping to progress to the semifinals for the first time since winning the World Cup back in 2010. La Roja's defense have been airtight, having not conceded a goal in their five matches so far. That has pegged Spain as the favorite against the Red Devils, but De la Fuente said he's not bothered by such expectations.`,
+        `"I don't have any fear about being the favorite or not. The favoritism doesn't guarantee anything," he said at Thursday's press conference.`,
+        `"What I can tell you is that we've done the work. We've prepared. We are ready for these kinds of games where, by the way, there are no favorites."`,
+        `The Spain manager added that regardless of people's opinions, he's expecting a difficult game on Friday.`,
+        `"Ultimately whoever's considered the favorite is just something of a matter of opinion," De la Fuente said.`,
+        `"We have to think about our own game and we have to know that tomorrow the game will be tough. It'll be difficult. We have to be our best to be victorious."`,
+        `De la Fuente noted that every player is fit to play, and given the team's preparation, he's relaxed heading into the clash.`,
+        `"Let's be clear. It's one thing to be nervous, another thing to be anxious, and yet another is to be excited," he said.`,
+        `"We've all been in sports. We all get butterflies in our tummy so to speak. But this is something that we can control. I'm not overcome by it. And calm is power. If you are at ease, you can think clearly. You can be very clear about things. And I have to be clear that I'm very calm. I am usually calm in these moments."`
+      ]
     },
 
     {
@@ -199,6 +165,64 @@ window.SITE_DATA = {
         `"I'm extremely proud of the team," Xhaka told SRF.`,
         `"It was an incredible display of mental fortitude. Willpower won. We've made history -- it's an unbelievable feeling. The relief makes us very proud. We've been waiting for a long time to write a story like this. Now the journey continues, and we're happy to still be here. I think it's the crowning achievement of the current generation. Hopefully, there will be another one; it's a special generation."`,
         `It wasn't Switzerland's most thrilling performance, but its grit and persistence earned it another chapter in its World Cup story. With Lionel Messi and the defending champion up next, though, this Swiss team needs the performance of its life.`
+      ],
+      original: null
+    },
+
+    {
+      id: "oreilly-mindgames",
+      kicker: "ENGLAND VS. NORWAY · QUARTERFINAL PREVIEW",
+      headline: "Nico O'Reilly says Haaland's 'favourites' talk is mind games — but he's not sleeping on the rest of Norway",
+      byline: "Original by Press Association · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49322056/nico-oreilly-erling-haaland-mind-games-england-norway-world-cup-quarterfinal",
+      body: [
+        `England's Nico O'Reilly says Erling Haaland is playing mind games by calling England the "clear favourites" to win Saturday's World Cup quarterfinal against Norway.`,
+        `O'Reilly will face his Manchester City teammate in Miami — a game Haaland says England should expect to win.`,
+        `Keeping Haaland quiet will be key to that, but O'Reilly knows there's more to Norway, one of this World Cup's surprise quarterfinalists, than just its star striker.`,
+        `Asked about Haaland's comments, he said: "Yeah, mind games.`,
+        `"But they're a good team as well. They've showed that throughout the whole tournament.`,
+        `"It's not just certain players that we need to worry about.`,
+        `"They're good collectively, and it's going to be a good game."`,
+        `He continued: "Erling's Erling. We all know what he's like. He can score goals. He's dangerous in the box, and he's a real threat. But they need to get him the ball in first. A lot goes into it.`,
+        `"I think keeping Erling quiet gives us a real chance to win the game.`,
+        `"We know the threat he can cause -- unbelievable striker, world class and he showed that throughout the tournament, scoring every game he's played in."`,
+        `England's Bukayo Saka will also face a club teammate of his own: Arsenal's Martin Ødegaard, who was a key player in Arsenal's Premier League title run and has also been instrumental in Norway's tournament.`,
+        `"I spoke to him briefly, but yeah, we're both really focused," Saka said.`,
+        `"We know how much of a big opportunity it is for our countries and, yeah, I'm looking forward to the game."`
+      ],
+      original: [
+        `Nico O'Reilly has said that Erling Haaland is playing mind games by saying England are "clear favourites" to win their World Cup quarterfinal with Norway.`,
+        `O'Reilly will come up against his Manchester City teammate in Saturday's match in Miami -- a clash Haaland says England should expect to win.`,
+        `Keeping Haaland quiet will be key to that, but O'Reilly knows there is more to the Scandinavians, who are in the quarterfinals of the World Cup.`,
+        `Asked about the striker's comments, he said: "Yeah, mind games.`,
+        `"But they're a good team as well. They've showed that throughout the whole tournament.`,
+        `"It's not just certain players that we need to worry about.`,
+        `"They're good collectively, and it's going to be a good game."`,
+        `He continued: "Erling's Erling. We all know what he's like. He can score goals. He's dangerous in the box, and he's a real threat. But they need to get him the ball in first. A lot goes into it.`,
+        `"I think keeping Erling quiet gives us a real chance to win the game.`,
+        `"We know the threat he can cause -- unbelievable striker, world class and he showed that throughout the tournament, scoring every game he's played in."`,
+        `Bukayo Saka will also come up against a club teammate in the shape of Martin Ødegaard, who was a key player in Arsenal's run to the Premier League title.`,
+        `The midfielder has also been integral to Norway's success.`,
+        `"I spoke to him briefly, but yeah, we're both really focused," Saka said.`,
+        `"We know how much of a big opportunity it is for our countries and, yeah, I'm looking forward to the game."`
+      ]
+    },
+
+    {
+      id: "haaland-pressure-england",
+      kicker: "ENGLAND VS. NORWAY · QUARTERFINAL PREVIEW",
+      headline: "Erling Haaland says Norway's title chances are 'really low' — and that all the pressure is on England",
+      byline: "Original by Shivam Pathak, ESPN · Translated",
+      link: "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal",
+      body: [
+        `Norway striker Erling Haaland played down his team's World Cup chances Thursday while turning the spotlight onto England ahead of Saturday's quarterfinal in Miami.`,
+        `With seven goals in five games, Haaland has carried Norway to the <span class="t" data-d="the eight teams left after the round of 16 — win this and you're two games from the final.">quarterfinals</span> for the first time. Asked to size up his country's championship hopes, he said: "Really low, still."`,
+        `The Manchester City forward argued that England, as tournament favorites, should be the ones feeling the weight of expectation. "I think all of you should put every single pressure on the English lads," he said.`,
+        `Haaland pointed to the personal stakes of facing England, given he was born in Leeds and has spent his club career in the Premier League. "It's a special game, definitely," he said.`,
+        `Asked directly whether the pressure was all on England, Haaland didn't hesitate: "Yeah, definitely."`,
+        `It's the same low-key act he put on before Norway's group-stage finale against France, when he said he couldn't worry much about that game because France would "probably win the whole tournament."`,
+        `Norway then pulled off the tournament's biggest shock, knocking out five-time champion Brazil in the <span class="t" data-d="the first knockout round of the 48-team World Cup — win or go home from here, like March Madness.">round of 16</span>, with Haaland scoring twice. "Playing against Brazil was kind of crazy for us Norwegians," he said.`,
+        `The winner advances to face either Argentina or Switzerland in the semifinal.`
       ],
       original: null
     }
